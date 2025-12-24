@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.o.d"
   "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.o"
   "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.o.d"
+  "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o"
+  "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o.d"
   "CMakeFiles/menu.dir/src/bitmask.cpp.o"
   "CMakeFiles/menu.dir/src/bitmask.cpp.o.d"
   "CMakeFiles/menu.dir/src/main.cpp.o"

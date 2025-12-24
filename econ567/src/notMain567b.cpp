@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int main() {
+int start567b() {
     auto [n1, n2, n3, common] = generateThreeUnique(42);
 
     // Rationalzahlen

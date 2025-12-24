@@ -25,6 +25,7 @@ add_executable(menu
     ${MENU_SRC}
     ../567/src/math_utils.cpp  
     ../567/src/notMain567a.cpp
+    ../econ567/src/notMain567b.cpp
     #${SRC_567}
     #src/main.cpp
     #src/mode_text.cpp
@@ -44,6 +45,7 @@ add_executable(menu
 # Header-Verzeichnisse hinzufügen
 target_include_directories(menu PRIVATE
     ../567/include
+    ../econ567/include
     #../678/en/include
     #../678/de/include
     ../econ567/include

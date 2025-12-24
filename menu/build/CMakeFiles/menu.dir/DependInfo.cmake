@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp" "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.o" "gcc" "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.o.d"
   "/data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp" "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.o" "gcc" "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.o.d"
+  "/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp" "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o" "gcc" "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o.d"
   "/data/data/com.termux/files/home/myRepos/econs/menu/src/bitmask.cpp" "CMakeFiles/menu.dir/src/bitmask.cpp.o" "gcc" "CMakeFiles/menu.dir/src/bitmask.cpp.o.d"
   "/data/data/com.termux/files/home/myRepos/econs/menu/src/main.cpp" "CMakeFiles/menu.dir/src/main.cpp.o" "gcc" "CMakeFiles/menu.dir/src/main.cpp.o.d"
   "/data/data/com.termux/files/home/myRepos/econs/menu/src/mode_ncurses.cpp" "CMakeFiles/menu.dir/src/mode_ncurses.cpp.o" "gcc" "CMakeFiles/menu.dir/src/mode_ncurses.cpp.o.d"

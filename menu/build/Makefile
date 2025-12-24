@@ -177,6 +177,30 @@ data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.s
 .PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.s
 
+data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.o: data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.o
+
+# target to build an object file
+data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o
+
+data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.i: data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.i
+
+# target to preprocess a source file
+data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.i
+
+data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.s: data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.s
+
+# target to generate assembly for a file
+data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.s
+
 src/bitmask.o: src/bitmask.cpp.o
 .PHONY : src/bitmask.o
 
@@ -312,6 +336,9 @@ help:
 	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.o"
 	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.i"
 	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.s"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.o"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.i"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.s"
 	@echo "... src/bitmask.o"
 	@echo "... src/bitmask.i"
 	@echo "... src/bitmask.s"
