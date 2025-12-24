@@ -57,10 +57,10 @@ RM = /data/data/com.termux/files/usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/myRepos/csvPy/econs/menu
+CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/myRepos/econs/menu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build
+CMAKE_BINARY_DIR = /data/data/com.termux/files/home/myRepos/econs/menu/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/myRepos/econs/menu/build/CMakeFiles /data/data/com.termux/files/home/myRepos/econs/menu/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/myRepos/econs/menu/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,53 +129,53 @@ menu/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/build
 .PHONY : menu/fast
 
-data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.o: data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.o
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.o
+data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.o: data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.o
 
 # target to build an object file
-data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.o
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.o
+data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.o
 
-data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.i: data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.i
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.i
+data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.i: data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.i
 
 # target to preprocess a source file
-data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.i
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.i
+data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.i
 
-data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.s: data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.s
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.s
+data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.s: data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.s
 
 # target to generate assembly for a file
-data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.s
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.s
+data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.s
 
-data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.o: data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.o
+data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.o: data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.o
 
 # target to build an object file
-data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o
+data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.o
 
-data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.i: data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.i
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.i
+data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.i: data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.i
 
 # target to preprocess a source file
-data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.i
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.i
+data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.i
 
-data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.s: data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.s
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.s
+data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.s: data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.s
 
 # target to generate assembly for a file
-data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.s
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.s
+data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.s
 
 src/bitmask.o: src/bitmask.cpp.o
 .PHONY : src/bitmask.o
@@ -306,12 +306,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... menu"
-	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.o"
-	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.i"
-	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.s"
-	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.o"
-	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.i"
-	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.s"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.o"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.i"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.s"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.o"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.i"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.s"
 	@echo "... src/bitmask.o"
 	@echo "... src/bitmask.i"
 	@echo "... src/bitmask.s"

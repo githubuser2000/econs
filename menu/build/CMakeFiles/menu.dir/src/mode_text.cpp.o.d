@@ -1,6 +1,6 @@
 CMakeFiles/menu.dir/src/mode_text.cpp.o: \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/mode_text.cpp \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/include/mode_text.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/src/mode_text.cpp \
+  /data/data/com.termux/files/home/myRepos/econs/menu/include/mode_text.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/vector \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config_site \
@@ -809,7 +809,7 @@ CMakeFiles/menu.dir/src/mode_text.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/perfect_forward.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/bind_back.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/bind_front.h \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/include/bitmask.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/include/bitmask.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/iostream \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/istream \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ostream/basic_ostream.h \
@@ -870,4 +870,4 @@ CMakeFiles/menu.dir/src/mode_text.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/print \
   /data/data/com.termux/files/usr/bin/../../usr/include/unistd.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/sstream \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/../567/include/notMain567a.h
+  /data/data/com.termux/files/home/myRepos/econs/menu/../567/include/notMain567a.h

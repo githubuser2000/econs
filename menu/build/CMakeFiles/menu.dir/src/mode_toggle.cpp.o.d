@@ -1,7 +1,7 @@
 CMakeFiles/menu.dir/src/mode_toggle.cpp.o: \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/mode_toggle.cpp \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/include/mode_toggle.h \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/include/bitmask.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/src/mode_toggle.cpp \
+  /data/data/com.termux/files/home/myRepos/econs/menu/include/mode_toggle.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/include/bitmask.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/set \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/equal.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/comp.h \
