@@ -868,4 +868,5 @@ CMakeFiles/menu.dir/src/mode_toggle.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/deque \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/stack \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/print \
-  /data/data/com.termux/files/usr/bin/../../usr/include/unistd.h
+  /data/data/com.termux/files/usr/bin/../../usr/include/unistd.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/../567/include/notMain567a.h

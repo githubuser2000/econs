@@ -2,6 +2,7 @@
 #include "bitmask.h"
 #include <iostream>
 #include <set>
+#include <notMain567a.h>
 
 void mode_toggle() {
     std::set<int> selected;
@@ -39,6 +40,7 @@ void mode_toggle() {
     );
     if (schnittmenge.size() == wsys567.size()) {
         std::cout << "Alle Elemente von {5,6,7} sind in meiner Menge!\n";
+        start567a();
     } else {
         std::cout << "Nicht alle Elemente von {5,6,7} sind vorhanden.\n";
     }
