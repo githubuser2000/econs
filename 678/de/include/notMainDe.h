@@ -1,4 +1,4 @@
 // -*- coding: utf-8 -*-
-#include "text.h"
+#include <text.h>
 
 int start678de();

@@ -2,7 +2,7 @@
 #pragma once
 
 #include <array>
-#include "rational.h"
+#include "rational.hpp"
 
 // maps 3 rational values into a 6-tuple “space representation”
 std::array<double, 6> fractionTripletToSpace(

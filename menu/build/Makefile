@@ -201,6 +201,78 @@ data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.s
 .PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.s
 
+data/data/com.termux/files/home/myRepos/econs/678/de/src/random.o: data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/random.o
+
+# target to build an object file
+data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.o
+
+data/data/com.termux/files/home/myRepos/econs/678/de/src/random.i: data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/random.i
+
+# target to preprocess a source file
+data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.i
+
+data/data/com.termux/files/home/myRepos/econs/678/de/src/random.s: data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/random.s
+
+# target to generate assembly for a file
+data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.s
+
+data/data/com.termux/files/home/myRepos/econs/678/de/src/space.o: data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/space.o
+
+# target to build an object file
+data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.o
+
+data/data/com.termux/files/home/myRepos/econs/678/de/src/space.i: data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/space.i
+
+# target to preprocess a source file
+data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.i
+
+data/data/com.termux/files/home/myRepos/econs/678/de/src/space.s: data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/space.s
+
+# target to generate assembly for a file
+data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.s
+
+data/data/com.termux/files/home/myRepos/econs/678/de/src/text.o: data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/text.o
+
+# target to build an object file
+data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.o
+
+data/data/com.termux/files/home/myRepos/econs/678/de/src/text.i: data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/text.i
+
+# target to preprocess a source file
+data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.i
+
+data/data/com.termux/files/home/myRepos/econs/678/de/src/text.s: data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/text.s
+
+# target to generate assembly for a file
+data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.s
+
 data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.o: data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o
 .PHONY : data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.o
 
@@ -387,6 +459,15 @@ help:
 	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.o"
 	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.i"
 	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.s"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/random.o"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/random.i"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/random.s"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/space.o"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/space.i"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/space.s"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/text.o"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/text.i"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/text.s"
 	@echo "... data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.o"
 	@echo "... data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.i"
 	@echo "... data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.s"

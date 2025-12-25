@@ -1,6 +1,6 @@
 // -*- coding: utf-8 -*-
 #pragma once
-#include "rational.h"
+#include "rational.hpp"
 #include "space.h"
 
 void out();

@@ -1,5 +1,5 @@
 // -*- coding: utf-8 -*-
-#include "text.h"
+#include <text.h>
 
 void start678de() {
     out();
