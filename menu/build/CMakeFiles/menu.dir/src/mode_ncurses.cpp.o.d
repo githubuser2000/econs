@@ -810,10 +810,8 @@ CMakeFiles/menu.dir/src/mode_ncurses.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/system_error \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/streambuf \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/cstdarg \
-  /data/data/com.termux/files/usr/bin/../../usr/include/ncurses.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/ncurses_dll.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/unctrl.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/curses.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/../567/include/notMain567a.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/../econ567/include/notMain567b.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/iostream \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/istream \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ostream/basic_ostream.h \
@@ -872,4 +870,10 @@ CMakeFiles/menu.dir/src/mode_ncurses.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/deque \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/stack \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/print \
-  /data/data/com.termux/files/usr/bin/../../usr/include/unistd.h
+  /data/data/com.termux/files/usr/bin/../../usr/include/unistd.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/../econ567/include/math_utils.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/include/check.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/ncurses.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/ncurses_dll.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/unctrl.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/curses.h

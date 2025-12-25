@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o.d"
   "CMakeFiles/menu.dir/src/bitmask.cpp.o"
   "CMakeFiles/menu.dir/src/bitmask.cpp.o.d"
+  "CMakeFiles/menu.dir/src/check.cpp.o"
+  "CMakeFiles/menu.dir/src/check.cpp.o.d"
   "CMakeFiles/menu.dir/src/main.cpp.o"
   "CMakeFiles/menu.dir/src/main.cpp.o.d"
   "CMakeFiles/menu.dir/src/mode_ncurses.cpp.o"

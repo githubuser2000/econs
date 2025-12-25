@@ -1,6 +1,7 @@
 /data/data/com.termux/files/home/myRepos/econs/menu/bin/menu: \
  /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o \
  CMakeFiles/menu.dir/src/bitmask.cpp.o \
+ CMakeFiles/menu.dir/src/check.cpp.o \
  CMakeFiles/menu.dir/src/main.cpp.o \
  CMakeFiles/menu.dir/src/mode_ncurses.cpp.o \
  CMakeFiles/menu.dir/src/mode_text.cpp.o \
@@ -20,6 +21,8 @@
 /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o:
 
 CMakeFiles/menu.dir/src/bitmask.cpp.o:
+
+CMakeFiles/menu.dir/src/check.cpp.o:
 
 CMakeFiles/menu.dir/src/main.cpp.o:
 

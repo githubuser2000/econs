@@ -1,5 +1,8 @@
 #include "mode_ncurses.h"
 #include "bitmask.h"
+#include <notMain567a.h>
+#include <notMain567b.h>
+#include "check.h"
 
 #ifdef USE_NCURSES
 #include <ncurses.h>
@@ -44,5 +47,7 @@ void mode_ncurses() {
     std::cout << "Auswahl: ";
     for (int n : selected) std::cout << n << " ";
     std::cout << "\nBitmaske: " << toBitmask(selected) << "\n";
+    
+    check(selected);
 }
 #endif

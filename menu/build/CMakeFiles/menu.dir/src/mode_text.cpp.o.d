@@ -870,4 +870,7 @@ CMakeFiles/menu.dir/src/mode_text.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/print \
   /data/data/com.termux/files/usr/bin/../../usr/include/unistd.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/sstream \
-  /data/data/com.termux/files/home/myRepos/econs/menu/../567/include/notMain567a.h
+  /data/data/com.termux/files/home/myRepos/econs/menu/../567/include/notMain567a.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/../econ567/include/notMain567b.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/../econ567/include/math_utils.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/include/check.h

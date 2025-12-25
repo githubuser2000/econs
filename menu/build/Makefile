@@ -225,6 +225,30 @@ src/bitmask.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/bitmask.cpp.s
 .PHONY : src/bitmask.cpp.s
 
+src/check.o: src/check.cpp.o
+.PHONY : src/check.o
+
+# target to build an object file
+src/check.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/check.cpp.o
+.PHONY : src/check.cpp.o
+
+src/check.i: src/check.cpp.i
+.PHONY : src/check.i
+
+# target to preprocess a source file
+src/check.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/check.cpp.i
+.PHONY : src/check.cpp.i
+
+src/check.s: src/check.cpp.s
+.PHONY : src/check.s
+
+# target to generate assembly for a file
+src/check.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/check.cpp.s
+.PHONY : src/check.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -342,6 +366,9 @@ help:
 	@echo "... src/bitmask.o"
 	@echo "... src/bitmask.i"
 	@echo "... src/bitmask.s"
+	@echo "... src/check.o"
+	@echo "... src/check.i"
+	@echo "... src/check.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
