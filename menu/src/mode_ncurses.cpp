@@ -3,6 +3,8 @@
 #include <notMain567a.h>
 #include <notMain567b.h>
 #include "check.h"
+#include <notMainDe.h>
+//#include <notMainEn.h>
 
 #ifdef USE_NCURSES
 #include <ncurses.h>

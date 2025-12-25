@@ -1,5 +1,5 @@
 // -*- coding: utf-8 -*-
-#include "text.hpp"
+#include "text.h"
 #include <iostream>
 
 void out() {

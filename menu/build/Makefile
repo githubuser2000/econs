@@ -177,6 +177,30 @@ data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.s
 .PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.s
 
+data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.o: data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.o
+
+# target to build an object file
+data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.o
+
+data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.i: data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.i
+
+# target to preprocess a source file
+data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.i
+
+data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.s: data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.s
+
+# target to generate assembly for a file
+data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.s
+
 data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.o: data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o
 .PHONY : data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.o
 
@@ -360,6 +384,9 @@ help:
 	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.o"
 	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.i"
 	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.s"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.o"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.i"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.s"
 	@echo "... data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.o"
 	@echo "... data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.i"
 	@echo "... data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.s"

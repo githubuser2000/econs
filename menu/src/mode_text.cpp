@@ -10,6 +10,8 @@
 #include <notMain567a.h>
 #include <notMain567b.h>
 #include "check.h"
+#include <notMainDe.h>
+//#include <notMainEn.h>
 
 // Hier die modularisierten Funktionen der *6* Programme einbinden
 

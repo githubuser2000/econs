@@ -1,14 +1,14 @@
 #include "space.h"
 #include <cmath>
 
-std::pair<double,double> convertOne(const Rational& r) {
+std::pair<double,double> convertOne(const EN::Rational& r) {
     double x = r.toDouble();
     return { x, 1.0 / (1.0 + std::abs(x)) };
 }
 
-Space fractionTripletToSpace(const Rational& a,
-                             const Rational& b,
-                             const Rational& c)
+Space fractionTripletToSpace(const EN::Rational& a,
+                             const EN::Rational& b,
+                             const EN::Rational& c)
 {
     auto [a1,a2] = convertOne(a);
     auto [b1,b2] = convertOne(b);

@@ -1,7 +1,7 @@
 // -*- coding: utf-8 -*-
-#include "text.hpp"
+#include "text.h"
 
-int start() {
+void start678de() {
     out();
     endtext1();
     endtext2();

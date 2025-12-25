@@ -873,4 +873,59 @@ CMakeFiles/menu.dir/src/mode_text.cpp.o: \
   /data/data/com.termux/files/home/myRepos/econs/menu/../567/include/notMain567a.h \
   /data/data/com.termux/files/home/myRepos/econs/menu/../econ567/include/notMain567b.h \
   /data/data/com.termux/files/home/myRepos/econs/menu/../econ567/include/math_utils.h \
-  /data/data/com.termux/files/home/myRepos/econs/menu/include/check.h
+  /data/data/com.termux/files/home/myRepos/econs/menu/include/check.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/../678/de/include/notMainDe.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/../678/de/include/text.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/../678/de/include/rational.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/random \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/bernoulli_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/uniform_real_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/generate_canonical.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/binomial_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/cauchy_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/chi_squared_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/gamma_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/exponential_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/default_random_engine.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/linear_congruential_engine.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/is_seed_sequence.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/discard_block_engine.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/discrete_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/numeric \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/accumulate.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/adjacent_difference.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/inner_product.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/iota.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/exclusive_scan.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/gcd_lcm.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/inclusive_scan.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/pstl.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/reduce.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/transform_reduce.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/midpoint.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/saturation_arithmetic.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/execution \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/is_execution_policy.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/extreme_value_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/fisher_f_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/geometric_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/negative_binomial_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/poisson_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/clamp_to_integral.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/normal_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/independent_bits_engine.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/knuth_b.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/shuffle_order_engine.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/lognormal_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/mersenne_twister_engine.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/piecewise_constant_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/piecewise_linear_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/random_device.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/ranlux.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/subtract_with_carry_engine.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/seed_seq.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/student_t_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/weibull_distribution.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/../678/de/include/space.h

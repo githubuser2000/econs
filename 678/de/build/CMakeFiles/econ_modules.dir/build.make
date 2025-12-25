@@ -53,10 +53,10 @@ RM = /data/data/com.termux/files/usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de
+CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/myRepos/econs/678/de
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/build
+CMAKE_BINARY_DIR = /data/data/com.termux/files/home/myRepos/econs/678/de/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/econ_modules.dir/depend.make
@@ -73,46 +73,46 @@ CMakeFiles/econ_modules.dir/codegen:
 .PHONY : CMakeFiles/econ_modules.dir/codegen
 
 CMakeFiles/econ_modules.dir/src/text.cpp.o: CMakeFiles/econ_modules.dir/flags.make
-CMakeFiles/econ_modules.dir/src/text.cpp.o: /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/text.cpp
+CMakeFiles/econ_modules.dir/src/text.cpp.o: /data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp
 CMakeFiles/econ_modules.dir/src/text.cpp.o: CMakeFiles/econ_modules.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/econ_modules.dir/src/text.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/econ_modules.dir/src/text.cpp.o -MF CMakeFiles/econ_modules.dir/src/text.cpp.o.d -o CMakeFiles/econ_modules.dir/src/text.cpp.o -c /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/text.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/econs/678/de/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/econ_modules.dir/src/text.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/econ_modules.dir/src/text.cpp.o -MF CMakeFiles/econ_modules.dir/src/text.cpp.o.d -o CMakeFiles/econ_modules.dir/src/text.cpp.o -c /data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp
 
 CMakeFiles/econ_modules.dir/src/text.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/econ_modules.dir/src/text.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/text.cpp > CMakeFiles/econ_modules.dir/src/text.cpp.i
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp > CMakeFiles/econ_modules.dir/src/text.cpp.i
 
 CMakeFiles/econ_modules.dir/src/text.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/econ_modules.dir/src/text.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/text.cpp -o CMakeFiles/econ_modules.dir/src/text.cpp.s
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp -o CMakeFiles/econ_modules.dir/src/text.cpp.s
 
 CMakeFiles/econ_modules.dir/src/rational.cpp.o: CMakeFiles/econ_modules.dir/flags.make
-CMakeFiles/econ_modules.dir/src/rational.cpp.o: /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/rational.cpp
+CMakeFiles/econ_modules.dir/src/rational.cpp.o: /data/data/com.termux/files/home/myRepos/econs/678/de/src/rational.cpp
 CMakeFiles/econ_modules.dir/src/rational.cpp.o: CMakeFiles/econ_modules.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/econ_modules.dir/src/rational.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/econ_modules.dir/src/rational.cpp.o -MF CMakeFiles/econ_modules.dir/src/rational.cpp.o.d -o CMakeFiles/econ_modules.dir/src/rational.cpp.o -c /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/rational.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/econs/678/de/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/econ_modules.dir/src/rational.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/econ_modules.dir/src/rational.cpp.o -MF CMakeFiles/econ_modules.dir/src/rational.cpp.o.d -o CMakeFiles/econ_modules.dir/src/rational.cpp.o -c /data/data/com.termux/files/home/myRepos/econs/678/de/src/rational.cpp
 
 CMakeFiles/econ_modules.dir/src/rational.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/econ_modules.dir/src/rational.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/rational.cpp > CMakeFiles/econ_modules.dir/src/rational.cpp.i
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/myRepos/econs/678/de/src/rational.cpp > CMakeFiles/econ_modules.dir/src/rational.cpp.i
 
 CMakeFiles/econ_modules.dir/src/rational.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/econ_modules.dir/src/rational.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/rational.cpp -o CMakeFiles/econ_modules.dir/src/rational.cpp.s
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/econs/678/de/src/rational.cpp -o CMakeFiles/econ_modules.dir/src/rational.cpp.s
 
 CMakeFiles/econ_modules.dir/src/space.cpp.o: CMakeFiles/econ_modules.dir/flags.make
-CMakeFiles/econ_modules.dir/src/space.cpp.o: /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/space.cpp
+CMakeFiles/econ_modules.dir/src/space.cpp.o: /data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp
 CMakeFiles/econ_modules.dir/src/space.cpp.o: CMakeFiles/econ_modules.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/econ_modules.dir/src/space.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/econ_modules.dir/src/space.cpp.o -MF CMakeFiles/econ_modules.dir/src/space.cpp.o.d -o CMakeFiles/econ_modules.dir/src/space.cpp.o -c /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/space.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/econs/678/de/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/econ_modules.dir/src/space.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/econ_modules.dir/src/space.cpp.o -MF CMakeFiles/econ_modules.dir/src/space.cpp.o.d -o CMakeFiles/econ_modules.dir/src/space.cpp.o -c /data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp
 
 CMakeFiles/econ_modules.dir/src/space.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/econ_modules.dir/src/space.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/space.cpp > CMakeFiles/econ_modules.dir/src/space.cpp.i
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp > CMakeFiles/econ_modules.dir/src/space.cpp.i
 
 CMakeFiles/econ_modules.dir/src/space.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/econ_modules.dir/src/space.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/space.cpp -o CMakeFiles/econ_modules.dir/src/space.cpp.s
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp -o CMakeFiles/econ_modules.dir/src/space.cpp.s
 
 # Object files for target econ_modules
 econ_modules_OBJECTS = \
@@ -128,7 +128,7 @@ libecon_modules.a: CMakeFiles/econ_modules.dir/src/rational.cpp.o
 libecon_modules.a: CMakeFiles/econ_modules.dir/src/space.cpp.o
 libecon_modules.a: CMakeFiles/econ_modules.dir/build.make
 libecon_modules.a: CMakeFiles/econ_modules.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libecon_modules.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/myRepos/econs/678/de/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libecon_modules.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/econ_modules.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/econ_modules.dir/link.txt --verbose=$(VERBOSE)
 
@@ -141,6 +141,6 @@ CMakeFiles/econ_modules.dir/clean:
 .PHONY : CMakeFiles/econ_modules.dir/clean
 
 CMakeFiles/econ_modules.dir/depend:
-	cd /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/build /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/build /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/build/CMakeFiles/econ_modules.dir/DependInfo.cmake "--color=$(COLOR)" econ_modules
+	cd /data/data/com.termux/files/home/myRepos/econs/678/de/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/data/com.termux/files/home/myRepos/econs/678/de /data/data/com.termux/files/home/myRepos/econs/678/de /data/data/com.termux/files/home/myRepos/econs/678/de/build /data/data/com.termux/files/home/myRepos/econs/678/de/build /data/data/com.termux/files/home/myRepos/econs/678/de/build/CMakeFiles/econ_modules.dir/DependInfo.cmake "--color=$(COLOR)" econ_modules
 .PHONY : CMakeFiles/econ_modules.dir/depend
 

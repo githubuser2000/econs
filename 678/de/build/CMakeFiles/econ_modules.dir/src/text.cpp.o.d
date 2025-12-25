@@ -1,7 +1,7 @@
 CMakeFiles/econ_modules.dir/src/text.cpp.o: \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/text.cpp \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/text.hpp \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/rational.hpp \
+  /data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp \
+  /data/data/com.termux/files/home/myRepos/econs/678/de/include/text.h \
+  /data/data/com.termux/files/home/myRepos/econs/678/de/include/rational.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/vector \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config_site \
@@ -859,7 +859,7 @@ CMakeFiles/econ_modules.dir/src/text.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/seed_seq.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/student_t_distribution.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/weibull_distribution.h \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/space.hpp \
+  /data/data/com.termux/files/home/myRepos/econs/678/de/include/space.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/iostream \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/istream \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ostream/basic_ostream.h \

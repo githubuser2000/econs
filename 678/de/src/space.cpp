@@ -1,5 +1,5 @@
 // -*- coding: utf-8 -*-
-#include "space.hpp"
+#include "space.h"
 #include <cmath>
 
 std::array<double, 6> fractionTripletToSpace(

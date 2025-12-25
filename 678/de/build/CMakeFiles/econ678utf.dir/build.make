@@ -53,10 +53,10 @@ RM = /data/data/com.termux/files/usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de
+CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/myRepos/econs/678/de
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/build
+CMAKE_BINARY_DIR = /data/data/com.termux/files/home/myRepos/econs/678/de/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/econ678utf.dir/depend.make
@@ -73,18 +73,18 @@ CMakeFiles/econ678utf.dir/codegen:
 .PHONY : CMakeFiles/econ678utf.dir/codegen
 
 CMakeFiles/econ678utf.dir/src/main.cpp.o: CMakeFiles/econ678utf.dir/flags.make
-CMakeFiles/econ678utf.dir/src/main.cpp.o: /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/main.cpp
+CMakeFiles/econ678utf.dir/src/main.cpp.o: /data/data/com.termux/files/home/myRepos/econs/678/de/src/main.cpp
 CMakeFiles/econ678utf.dir/src/main.cpp.o: CMakeFiles/econ678utf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/econ678utf.dir/src/main.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/econ678utf.dir/src/main.cpp.o -MF CMakeFiles/econ678utf.dir/src/main.cpp.o.d -o CMakeFiles/econ678utf.dir/src/main.cpp.o -c /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/econs/678/de/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/econ678utf.dir/src/main.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/econ678utf.dir/src/main.cpp.o -MF CMakeFiles/econ678utf.dir/src/main.cpp.o.d -o CMakeFiles/econ678utf.dir/src/main.cpp.o -c /data/data/com.termux/files/home/myRepos/econs/678/de/src/main.cpp
 
 CMakeFiles/econ678utf.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/econ678utf.dir/src/main.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/main.cpp > CMakeFiles/econ678utf.dir/src/main.cpp.i
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/myRepos/econs/678/de/src/main.cpp > CMakeFiles/econ678utf.dir/src/main.cpp.i
 
 CMakeFiles/econ678utf.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/econ678utf.dir/src/main.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/main.cpp -o CMakeFiles/econ678utf.dir/src/main.cpp.s
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/econs/678/de/src/main.cpp -o CMakeFiles/econ678utf.dir/src/main.cpp.s
 
 # Object files for target econ678utf
 econ678utf_OBJECTS = \
@@ -93,19 +93,19 @@ econ678utf_OBJECTS = \
 # External object files for target econ678utf
 econ678utf_EXTERNAL_OBJECTS =
 
-/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/bin/econ678utf: CMakeFiles/econ678utf.dir/src/main.cpp.o
-/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/bin/econ678utf: CMakeFiles/econ678utf.dir/build.make
-/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/bin/econ678utf: CMakeFiles/econ678utf.dir/compiler_depend.ts
-/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/bin/econ678utf: libecon_modules.a
-/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/bin/econ678utf: CMakeFiles/econ678utf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/bin/econ678utf"
+/data/data/com.termux/files/home/myRepos/econs/678/de/bin/econ678utf: CMakeFiles/econ678utf.dir/src/main.cpp.o
+/data/data/com.termux/files/home/myRepos/econs/678/de/bin/econ678utf: CMakeFiles/econ678utf.dir/build.make
+/data/data/com.termux/files/home/myRepos/econs/678/de/bin/econ678utf: CMakeFiles/econ678utf.dir/compiler_depend.ts
+/data/data/com.termux/files/home/myRepos/econs/678/de/bin/econ678utf: libecon_modules.a
+/data/data/com.termux/files/home/myRepos/econs/678/de/bin/econ678utf: CMakeFiles/econ678utf.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/myRepos/econs/678/de/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /data/data/com.termux/files/home/myRepos/econs/678/de/bin/econ678utf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/econ678utf.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copying econ678utf -> /data/data/com.termux/files/home/myRepos/csvPy/econs/bin"
 	/data/data/com.termux/files/usr/bin/cmake -E make_directory /data/data/com.termux/files/home/myRepos/csvPy/econs/bin
-	/data/data/com.termux/files/usr/bin/cmake -E copy /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/bin/econ678utf /data/data/com.termux/files/home/myRepos/csvPy/econs/bin/
+	/data/data/com.termux/files/usr/bin/cmake -E copy /data/data/com.termux/files/home/myRepos/econs/678/de/bin/econ678utf /data/data/com.termux/files/home/myRepos/csvPy/econs/bin/
 
 # Rule to build all files generated by this target.
-CMakeFiles/econ678utf.dir/build: /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/bin/econ678utf
+CMakeFiles/econ678utf.dir/build: /data/data/com.termux/files/home/myRepos/econs/678/de/bin/econ678utf
 .PHONY : CMakeFiles/econ678utf.dir/build
 
 CMakeFiles/econ678utf.dir/clean:
@@ -113,6 +113,6 @@ CMakeFiles/econ678utf.dir/clean:
 .PHONY : CMakeFiles/econ678utf.dir/clean
 
 CMakeFiles/econ678utf.dir/depend:
-	cd /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/build /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/build /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/build/CMakeFiles/econ678utf.dir/DependInfo.cmake "--color=$(COLOR)" econ678utf
+	cd /data/data/com.termux/files/home/myRepos/econs/678/de/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/data/com.termux/files/home/myRepos/econs/678/de /data/data/com.termux/files/home/myRepos/econs/678/de /data/data/com.termux/files/home/myRepos/econs/678/de/build /data/data/com.termux/files/home/myRepos/econs/678/de/build /data/data/com.termux/files/home/myRepos/econs/678/de/build/CMakeFiles/econ678utf.dir/DependInfo.cmake "--color=$(COLOR)" econ678utf
 .PHONY : CMakeFiles/econ678utf.dir/depend
 

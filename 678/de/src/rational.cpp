@@ -1,5 +1,5 @@
 // -*- coding: utf-8 -*-
-#include "rational.hpp"
+#include "rational.h"
 
 Rational randomRational(int min, int max) {
     static std::mt19937 rng{std::random_device{}()};

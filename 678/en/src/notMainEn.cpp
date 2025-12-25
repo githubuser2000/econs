@@ -3,6 +3,7 @@
 #include "space.h"
 #include <iostream>
 #include <locale>
+#include <notMainEn.h>
 
 
 void banner(const char* title) {
@@ -39,7 +40,7 @@ void out() {
     std::cout << "\n";
 }
 
-int start() {
+int start678en() {
     std::locale::global(std::locale("C.UTF-8"));
 
     out();

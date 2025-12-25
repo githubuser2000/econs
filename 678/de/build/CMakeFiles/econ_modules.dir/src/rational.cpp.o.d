@@ -1,6 +1,6 @@
 CMakeFiles/econ_modules.dir/src/rational.cpp.o: \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/rational.cpp \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/rational.hpp \
+  /data/data/com.termux/files/home/myRepos/econs/678/de/src/rational.cpp \
+  /data/data/com.termux/files/home/myRepos/econs/678/de/include/rational.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/vector \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config_site \

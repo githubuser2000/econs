@@ -21,6 +21,7 @@ static int gcd_int(int a, int b) {
     return std::gcd(a, b);
 }
 
+namespace EN {
 Rational randomRational() {
     int n = randInt(-9, 9);
     int d;
@@ -28,15 +29,15 @@ Rational randomRational() {
 
     int g = gcd_int(n, d);
     return { n / g, d / g };
-}
+}}
 
-double Rational::toDouble() const {
+double EN:Rational::toDouble() const {
     if (den == 0) throw std::runtime_error("division by zero");
     return static_cast<double>(num) / static_cast<double>(den);
 }
 
-std::vector<Rational> randomFractionList() {
-    std::vector<Rational> xs;
+std::vector<EN::Rational> randomFractionList() {
+    std::vector<EN::Rational> xs;
     int k = randomLength();
     xs.reserve(k);
     for (int i = 0; i < k; ++i)

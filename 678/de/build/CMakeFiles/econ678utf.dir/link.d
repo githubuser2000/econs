@@ -1,4 +1,4 @@
-/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/bin/econ678utf: \
+/data/data/com.termux/files/home/myRepos/econs/678/de/bin/econ678utf: \
  /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o \
  CMakeFiles/econ678utf.dir/src/main.cpp.o \
  libecon_modules.a \

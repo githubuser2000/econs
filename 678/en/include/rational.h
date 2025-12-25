@@ -1,7 +1,10 @@
 #pragma once
 #include <vector>
 
-struct Rational {
+namespace EN {
+    struct Rational;
+}
+struct EN::Rational {
     int num;
     int den;
     double toDouble() const;
@@ -9,5 +12,5 @@ struct Rational {
 
 int randInt(int a, int b);
 int randomLength(int minLen = 4, int maxLen = 12);
-Rational randomRational();
-std::vector<Rational> randomFractionList();
+EN::Rational randomRational();
+std::vector<EN::Rational> randomFractionList();

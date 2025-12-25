@@ -4,6 +4,8 @@
 
 #include <iostream>
 #include <set>
+#include <notMainDe.h>
+//#include <notMainEn.h>
 
 void mode_toggle()
 {

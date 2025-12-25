@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/bin/econ678utf"
-  "/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/bin/econ678utf.pdb"
+  "/data/data/com.termux/files/home/myRepos/econs/678/de/bin/econ678utf"
+  "/data/data/com.termux/files/home/myRepos/econs/678/de/bin/econ678utf.pdb"
   "CMakeFiles/econ678utf.dir/link.d"
   "CMakeFiles/econ678utf.dir/src/main.cpp.o"
   "CMakeFiles/econ678utf.dir/src/main.cpp.o.d"

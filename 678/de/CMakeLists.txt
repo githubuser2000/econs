@@ -19,7 +19,7 @@ add_library(econ_modules
 )
 
 # Include-Verzeichnis für die Bibliothek
-target_include_directories(econ_modules PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
+target_include_directories(econ_modules PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 # Executable, die nur main.cpp enthält
 add_executable(econ678utf src/main.cpp)
