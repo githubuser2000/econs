@@ -4,19 +4,20 @@
 #include <iostream>
 #include <notMain567a.h>
 #include <notMain567b.h>
-
+#include <notMainDe.h>
 void check(const std::set<int>& selected)
 {
  int mask = 0;
 for (int x : selected) {
-    if (x == 1) mask |= 1;
-    if (x == 2) mask |= 2;
-    if (x == 3) mask |= 4;
-    if (x == 4) mask |= 8;
-    if (x == 5) mask |= 16;
-    if (x == 6) mask |= 32;
-    if (x == 7) mask |= 64;
-    if (x == 8) mask |= 128;
+    if (x == 0) mask |= 1;
+    if (x == 1) mask |= 2;
+    if (x == 2) mask |= 4;
+    if (x == 3) mask |= 8;
+    if (x == 4) mask |= 16;
+    if (x == 5) mask |= 32;
+    if (x == 6) mask |= 64;
+    if (x == 7) mask |= 128;
+    if (x == 8) mask |= 256;
 }
 switch (mask) {
     case 0b11100000:   // {5,6,7}
@@ -26,8 +27,9 @@ switch (mask) {
             start567b();
         break;
 
-    case 0b01110000:   // {5,6}
+    case 0b111000000:   // {5,6}
         std::cout << "6 7 8 vorhanden\n";
+            start678de();
         break;
 
     case 0b101:   // {5,7}
