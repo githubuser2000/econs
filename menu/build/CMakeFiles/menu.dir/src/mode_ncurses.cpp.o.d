@@ -875,7 +875,7 @@ CMakeFiles/menu.dir/src/mode_ncurses.cpp.o: \
   /data/data/com.termux/files/home/myRepos/econs/menu/include/check.h \
   /data/data/com.termux/files/home/myRepos/econs/menu/../678/de/include/notMainDe.h \
   /data/data/com.termux/files/home/myRepos/econs/menu/../678/de/include/text.h \
-  /data/data/com.termux/files/home/myRepos/econs/menu/../678/de/src/rational.hpp \
+  /data/data/com.termux/files/home/myRepos/econs/menu/../678/de/include/rational.hpp \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/random \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/bernoulli_distribution.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/uniform_real_distribution.h \

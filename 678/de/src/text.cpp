@@ -1,10 +1,21 @@
 // -*- coding: utf-8 -*-
-#include "text.h"
+#include <text.h>
 #include <iostream>
 #include <rational.hpp>
 
+
+// randomLength.cpp
+#include <random>
+
+unsigned long randomLength(unsigned long a, unsigned long b) {
+    static std::mt19937 rng{std::random_device{}()};
+    std::uniform_int_distribution<unsigned long> dist(a, b);
+    return dist(rng);
+}
+
+
 void out() {
-    auto n = randomLength();
+    auto n = randomLength(3, 12);
     std::vector<Rational> v = randomTriplet(n);
 
     for (std::size_t i = 0; i + 2 < v.size(); i += 3) {

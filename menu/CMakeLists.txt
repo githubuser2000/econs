@@ -14,13 +14,7 @@ option(USE_NCURSES "Enable ncurses TUI" ON)
 
 # Alle cpp-Dateien im Ordner src
 file(GLOB MENU_SRC "src/*.cpp")
-#list(REMOVE_ITEM MENU_SRC "src/main.cpp")
-#file(GLOB SRC_567 "../567/src/*.cpp")
-#list(REMOVE_ITEM SRC_567 "../567/src/main.cpp")
-#list(REMOVE_ITEM SRC_567 "main.cpp")
 
-#file(GLOB SRC_econ567 "../econ567/src/*.cpp")
-#list(REMOVE_ITEM SRC_econ567 "../econ567/src/main.cpp")
 add_executable(menu
     ${MENU_SRC}
     ../567/src/math_utils.cpp  
@@ -30,15 +24,9 @@ add_executable(menu
     ../678/de/src/notMainDe.cpp 
     ../678/de/src/space.cpp
     ../678/de/src/random.cpp
-    #${SRC_567}
-    #src/main.cpp
-    #src/mode_text.cpp
-    #../678/en/src/notMainEn.cpp
     ../678/de/src/notMainDe.cpp
-    #../econ567/src/notMain567b.cpp
-    ../567/src/notMain567a.cpp   # .cpp nur hier
+    ../567/src/notMain567a.cpp   
     ../567/include/math_utils.h
-    #src/main.cpp
     src/bitmask.cpp
     src/mode_text.cpp
     src/mode_toggle.cpp
@@ -51,7 +39,6 @@ target_include_directories(menu PRIVATE
     ../econ567/include
     #../678/en/include
     ../678/de/include
-    ../678/de/src
     ../econ567/include
 )
 # --- Includes ---

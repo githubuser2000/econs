@@ -11,6 +11,6 @@ struct EN::Rational {
 };
 
 int randInt(int a, int b);
-int randomLength(int minLen = 4, int maxLen = 12);
+int randomLength1 (int minLen = 4, int maxLen = 12);
 EN::Rational randomRational();
 std::vector<EN::Rational> randomFractionList();

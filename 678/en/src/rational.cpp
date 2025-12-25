@@ -13,7 +13,7 @@ int randInt(int a, int b) {
     return d(rng());
 }
 
-int randomLength(int minLen, int maxLen) {
+int randomLength1(int minLen, int maxLen) {
     return randInt(minLen, maxLen);
 }
 
@@ -38,7 +38,7 @@ double EN:Rational::toDouble() const {
 
 std::vector<EN::Rational> randomFractionList() {
     std::vector<EN::Rational> xs;
-    int k = randomLength();
+    int k = randomLength1();
     xs.reserve(k);
     for (int i = 0; i < k; ++i)
         xs.push_back(randomRational());
