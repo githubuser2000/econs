@@ -14,4 +14,3 @@ Makefile
 *.a
 *.so
 *.exe
-/bin//
