@@ -52,7 +52,17 @@ if (USE_NCURSES)
 endif()
 
 # --- Zielpfad für Deployment ---
-set(DEPLOY_DIR $ENV{HOME}/myRepos/csvPy/econs/bin)
+set(DEPLOY_DIR $ENV{HOME}/myRepos/econs/econs/bin)
+
+# --- Beim Build zusätzlich dorthin kopieren ---
+add_custom_command(TARGET menu POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E make_directory ${DEPLOY_DIR}
+    COMMAND ${CMAKE_COMMAND} -E copy
+        $<TARGET_FILE:menu>
+        ${DEPLOY_DIR}
+    COMMENT "Kopiere Binary nach ${DEPLOY_DIR}"
+)
+set(DEPLOY_DIR ../../bin)
 
 # --- Beim Build zusätzlich dorthin kopieren ---
 add_custom_command(TARGET menu POST_BUILD
