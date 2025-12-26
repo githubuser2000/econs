@@ -82,6 +82,12 @@ switch (mask) {
         std::cout << reinterpret_cast<const char*>(text.c_str()) << std::endl;
         break;
  
+     case 0b01000:   // {3 }
+        std::cout << "{3 } vorhanden\n";
+        text = u8"Landwirtschaft 🌾🌱 kann auch ein komplettes 🏛️ vollständiges Wirtschaftssystem sein 💰💼. Bauern 👨‍🌾👩‍🌾 = Landwirte 🚜 und manche Bauern 🌿 bauen zudem auch 🏡 und sind zudem Fachkräfte 🛠️📚, welches das reziproke ↔️ orthogonale 📐 rechtwinklige ⬛ Pendant zum Wirtschaftssystem Bauernstaat 🏞️ wäre, wobei pragmatische Bedingungs-Hersteller ⚙️🔧 genügen ✅ und auch Reinigungskräfte 🧹🪣, können es aber auch Meister vom Berufsfach 🏅👷 sein, wie auch Schul-Fach-Lehrer 👩‍🏫👨‍🏫, aber auch Fänger 🎯 Karten-Verantwortliche 🗂️ Filterungs-Verantwortliche 🧪 Sieb verwendende 🥣 und technische Zeichner 📐✏️, aber eigentlich sind Bedingungs-Zuständige 🛡️ das Reziproke ↩️ 90° rechtwinklige ⬛ orthogonale zum Bauernstaat der Landwirte 🌾.\n\nAgriculture 🌾🌱 can also be a complete 🏛️ full economic system 💰💼. Farmers 👨‍🌾👩‍🌾 = cultivators 🚜 and some farmers 🌿 also build big 🏡 and are furthermore skilled subject professionals 🛠️📚, which is the reciprocal ↔️ orthogonal 📐 right-angled ⬛ counterpart to the farming-state economic system 🏞️, where pragmatic condition-makers ⚙️🔧 suffice ✅ and also cleaning staff 🧹🪣, but they can also be masters of vocational fields 🏅👷, as well as school-subject teachers 👩‍🏫👨‍🏫, and also catchers 🎯 map-responsible 🗂️ filter-responsible 🧪 sieve-using 🥣 and technical draftsmen 📐✏️, but in essence the condition-responsibles 🛡️ are the reciprocal ↩️ 90° right-angled ⬛ orthogonal to the farming-state of cultivators 🌾.";
+        std::cout << reinterpret_cast<const char*>(text.c_str()) << std::endl;
+        break;
+ 
     default:
         std::cout << "Keine relevante Kombination\n";
 }
