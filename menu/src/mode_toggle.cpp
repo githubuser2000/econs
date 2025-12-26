@@ -14,15 +14,15 @@ void mode_toggle()
     while (true) {
         system("clear");
 
-        for (int i = 3; i <= 9; ++i)
+        for (int i = 1; i <= 12; ++i)
             std::cout << "[" << (selected.count(i) ? 'x' : ' ') << "] " << i << "\n";
 
-        std::cout << "\n3-9 toggle | q = fertig: ";
+        std::cout << "\n1-9 toggle | q = fertig: ";
         char c;
         std::cin >> c;
 
         if (c == 'q') break;
-        if (c >= '3' && c <= '9') {
+        if (c >= '0' && c <= '9') {
             int v = c - '0';
             if (selected.count(v)) selected.erase(v);
             else selected.insert(v);

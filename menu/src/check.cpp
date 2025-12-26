@@ -70,6 +70,12 @@ switch (mask) {
         text = u8"Vermutlich wahrscheinlich ist Sklaverei 🏛️⚖️ ein weniger bösartiges 😶‍🌫️ schädliches ☠️ gefährliches ⚡ bedrohliches 🚨 Wirtschaftssystem 💰, als im Vergleich die Geldwährungswirtschaft 💵💳, die nach der Sklaverei der zweite Markt 🏦 ist. Es basiert auf den Prinzipien Vorwärts ⬆️ vs Rückwärts ⬇️ oder oben 🏔️ vs unten 🌊 oder hinten 🔙 vs vorne 🔜, also zwei Richtungen ↔️ von hier drei erwähnten Richtungs-Möglichkeiten 🔄. Der Sklavenhalter 👑 ist der autarke 🏹 selbständige 💪 unternehmerische 📈 autodidaktische 📚 souveräne 🦁 selbstbestimmte ✊ Selbstverantwortliche 🛡️. Der Sklave 🤲 ist kein Eigentum 🚫🏠 und kein Besitz 💎, was im Gegenteil zur Leibeigenschaft ⚙️ = Sklaverei 2.0 🏚️ steht, in welchem Raum besessen wird 🏘️. Sklaverei ist Gildenwesen 2.0.\n\nPresumably probably, slavery 🏛️⚖️ is a less malicious 😶‍🌫️ harmful ☠️ dangerous ⚡ threatening 🚨 economic system 💰, compared to the money-based economy 💵💳, which is the second market 🏦 after slavery. It is based on the principles of forward ⬆️ vs backward ⬇️ or up 🏔️ vs down 🌊 or back 🔙 vs front 🔜, thus two directions ↔️ out of the three mentioned directional possibilities 🔄. The slaveholder 👑 is the autonomous 🏹 independent 💪 entrepreneurial 📈 self-taught 📚 sovereign 🦁 self-determined ✊ self-responsible 🛡️. The slave 🤲 is not property 🚫🏠 and not possession 💎, which, in contrast, stands against serfdom ⚙️ = slavery 2.0 🏚️, in which space is possessed 🏘️. Slavery is guild economy 2.0.";
         std::cout << reinterpret_cast<const char*>(text.c_str()) << std::endl;
         break;
+     case 0b0100:   // {2 }
+        std::cout << "{2 } vorhanden\n";
+        text = u8"Schuldgeldsystem ohne Geld ohne Währung ist das Gildenwesen ⚔️🤝 (Gläubiger 🧑‍💼, Leihen 🛠️, Schuld verursachen durch etwas wie jemanden etwas leihen sozusagen 📜💰) (Jungs 👦 und Männer 👨) hat als Reziprokes Neunzig Grad 🔄📐, Pi halbe 🥧➗2, orthogonal ⬛➕⬜, rechtwinklig 📏 das Zunftwesen 🏛️⚖️, Frauen 👧👩 und Mädchen 👧, welche die Schuld der Schuldner oder Borger wieder eintreiben zurück holen 💪🪙 etc.. Wie Borgen und Leihen funktioniert das Gildenwesen ⚔️💸 mit Zunftwesen 🏛️⚖️ als zwei orthogonale rechtwinklige reziproke Systeme 🔄📐 kombiniert und statt Geld 💵 statt Währung könnte man Protokolle führen 📜🖋️💾.\n\nDebt system without money 💸❌, without currency 💱❌, is the Guild system ⚔️🤝 (creditor 🧑‍💼, lending 🛠️, creating debt by lending something to someone 📜💰) (boys 👦 and men 👨) has as reciprocal ninety degrees 🔄📐, half Pi 🥧➗2, orthogonal ⬛➕⬜, right-angled 📏 the Guild system, the Craft system 🏛️⚖️, women 👩 and girls 👧, who recover or collect the debt of the debtors or borrowers 💪🪙 etc.. How borrowing and lending works in the Guild system ⚔️💸 with the Craft system 🏛️⚖️ as two orthogonal right-angled reciprocal systems 🔄📐 combined, and instead of money 💵 or currency 💱, one could keep protocols 📜🖋️💾.\n\nGuildSystem🏛️ GuildOrganization🏢 GuildStructure🏗️ GuildSociety🌐 GuildFramework🛠️ ArtisanGuilds🎨 CraftGuilds🧵 TradeGuilds💰 MerchantGuilds🛒 Brotherhood🤝 GuildEconomy💹 GuildNetwork🔗 CooperativeGuild🤲 CollegiateOrganization🏫 ProfessionalAssociation👔 Fraternity🎓 Fellowship🤗 LeagueOfTrades⚒️ Order📜 TradeUnion✊ TradeAssociation📈 MerchantAssociation🏪 GuildCouncil🗳️ CraftAssociation🖌️ ArtisanLeague🎭 ArtisanBrotherhood🛡️ TradeLeague🏹 MerchantLeague🚢 GuildAlliance🪢 GuildConfederation🕊️ GuildCollective🫱 GuildChamber🏛️ GuildCircle🔵 TradeCircle🔄 CraftCircle🌀 ArtisanCircle🌿 MerchantCircle🏷️ GuildSocietyClub🏰.\n\nGildensystem🏛️ Gildenorganisation🏢 Gildenstruktur🏗️ Gildengesellschaft🌐 Gildenrahmen🛠️ Handwerksgilden🎨 Kunsthandwerksgilden🧵 Handelsgilden💰 Kaufmannsgilden🛒 Bruderschaft🤝 Gildenwirtschaft💹 Gildennetzwerk🔗 KooperativeGilde🤲 KollegialeOrganisation🏫 Berufsverband👔 Studentenverbindung🎓 Gemeinschaft🤗 Handelsliga⚒️ Orden📜 Gewerkschaft✊ Handelsvereinigung📈 Kaufmannsvereinigung🏪 Gildenkonvent🗳️ Handwerksverband🖌️ Handwerksliga🎭 Handwerksbruderschaft🛡️ Handelsliga🏹 Kaufmannsliga🚢 Gildenallianz🪢 Gildenföderation🕊️ Gildenkollektiv🫱 Gildenkammer🏛️ Gildenkreis🔵 Handelskreis🔄 Handwerkskreis🌀 Kunsthandwerkskreis🌿 Kaufmannskreis🏷️ Gildengesellschaftsclub🏰.\n\nZunft🏛️ Handwerkszunft🛠️ Gewerbezunft⚒️ Kaufmannszunft💰 Meisterzunft🎓 Bruderschaft🤝 Gildenordnung📜 Zunftverein🏫 Zunftbund🔗 Handwerksbund🎨 Kunsthandwerkszunft🖌️ Handelszunft🛒 Zunftkammer🏰 Zunfträte🗳️ Zunftkreis🔵 Handwerkskreis🌀 Meisterkreis🌿 Zunftallianz🪢 Zunftkonvent🕊️ Zunftkollektiv🫱 Zunftnetzwerk🌐 Zunftgesellschaft🌐 Zunftverband👔 Zunftorganisation🏢\n\nCraftSisterhood🛠️ ArtisanSisterhood🎨 TradeSisterhood⚒️ MerchantSisterhood💰 MasterSisterhood🎓 WomenArtisans👩‍🎨 WomenCrafters🧵 WomenTraders👩‍💼 FemaleArtisans🌿 FemaleCrafters🪡 FemaleMerchants🛒 WomenInCrafts🫱 WomenInTrade🔗 SisterhoodOfCrafts🤝 SisterhoodOfArtisans📜 FemaleMasterCircle🌸 WomenGuildless🪢 WomenChamber🏰";
+        std::cout << reinterpret_cast<const char*>(text.c_str()) << std::endl;
+        break;
+ 
     default:
         std::cout << "Keine relevante Kombination\n";
 }
@@ -78,9 +84,14 @@ switch (mask) {
 }
 
 
-
-
-
+/*
+     case 0b010000:   // {4 }
+        std::cout << "{4 } vorhanden\n";
+        text = u8"";
+        std::cout << reinterpret_cast<const char*>(text.c_str()) << std::endl;
+        break;
+ 
+*/
 
 
 /*
