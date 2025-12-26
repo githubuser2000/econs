@@ -184,10 +184,24 @@ CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/notMai
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.s"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp -o CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.s
 
+CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.o: CMakeFiles/menu.dir/flags.make
+CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.o: /data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp
+CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.o: CMakeFiles/menu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.o -MF CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.o.d -o CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.o -c /data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp
+
+CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.i"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp > CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.i
+
+CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.s"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp -o CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.s
+
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o: CMakeFiles/menu.dir/flags.make
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o: /data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o: CMakeFiles/menu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o -MF CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o.d -o CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o -c /data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp
 
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.i: cmake_force
@@ -201,7 +215,7 @@ CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/no
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.o: CMakeFiles/menu.dir/flags.make
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.o: /data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.o: CMakeFiles/menu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.o"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.o -MF CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.o.d -o CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.o -c /data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp
 
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.i: cmake_force
@@ -215,7 +229,7 @@ CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/tex
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.o: CMakeFiles/menu.dir/flags.make
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.o: /data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.o: CMakeFiles/menu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.o"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.o -MF CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.o.d -o CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.o -c /data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp
 
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.i: cmake_force
@@ -229,7 +243,7 @@ CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/not
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.o: CMakeFiles/menu.dir/flags.make
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.o: /data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.o: CMakeFiles/menu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.o"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.o -MF CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.o.d -o CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.o -c /data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp
 
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.i: cmake_force
@@ -243,7 +257,7 @@ CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/spa
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.o: CMakeFiles/menu.dir/flags.make
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.o: /data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.o: CMakeFiles/menu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.o"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.o -MF CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.o.d -o CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.o -c /data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp
 
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.i: cmake_force
@@ -264,6 +278,7 @@ menu_OBJECTS = \
 "CMakeFiles/menu.dir/src/mode_toggle.cpp.o" \
 "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.o" \
 "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.o" \
+"CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.o" \
 "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o" \
 "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.o" \
 "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.o" \
@@ -281,6 +296,7 @@ menu_EXTERNAL_OBJECTS =
 /data/data/com.termux/files/home/myRepos/econs/menu/bin/menu: CMakeFiles/menu.dir/src/mode_toggle.cpp.o
 /data/data/com.termux/files/home/myRepos/econs/menu/bin/menu: CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.o
 /data/data/com.termux/files/home/myRepos/econs/menu/bin/menu: CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.o
+/data/data/com.termux/files/home/myRepos/econs/menu/bin/menu: CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.o
 /data/data/com.termux/files/home/myRepos/econs/menu/bin/menu: CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o
 /data/data/com.termux/files/home/myRepos/econs/menu/bin/menu: CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.o
 /data/data/com.termux/files/home/myRepos/econs/menu/bin/menu: CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.o
@@ -289,7 +305,7 @@ menu_EXTERNAL_OBJECTS =
 /data/data/com.termux/files/home/myRepos/econs/menu/bin/menu: CMakeFiles/menu.dir/build.make
 /data/data/com.termux/files/home/myRepos/econs/menu/bin/menu: CMakeFiles/menu.dir/compiler_depend.ts
 /data/data/com.termux/files/home/myRepos/econs/menu/bin/menu: CMakeFiles/menu.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/myRepos/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable /data/data/com.termux/files/home/myRepos/econs/menu/bin/menu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/myRepos/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable /data/data/com.termux/files/home/myRepos/econs/menu/bin/menu"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/menu.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Kopiere Binary nach /data/data/com.termux/files/home/myRepos/econs/econs/bin"
 	/data/data/com.termux/files/usr/bin/cmake -E make_directory /data/data/com.termux/files/home/myRepos/econs/econs/bin

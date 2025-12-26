@@ -19,6 +19,7 @@ add_executable(menu
     ${MENU_SRC}
     ../567/src/math_utils.cpp  
     ../567/src/notMain567a.cpp
+    ../567/src/econ567emo2.cpp
     ../econ567/src/notMain567b.cpp
     ../678/de/src/text.cpp 
     ../678/de/src/notMainDe.cpp 

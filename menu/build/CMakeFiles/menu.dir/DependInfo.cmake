@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp" "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.o" "gcc" "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.o.d"
   "/data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp" "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.o" "gcc" "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.o.d"
   "/data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp" "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.o" "gcc" "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.o.d"
   "/data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp" "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.o" "gcc" "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.o.d"

@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "/data/data/com.termux/files/home/myRepos/econs/menu/bin/menu"
   "/data/data/com.termux/files/home/myRepos/econs/menu/bin/menu.pdb"
   "CMakeFiles/menu.dir/link.d"
+  "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.o"
+  "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.o.d"
   "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.o"
   "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.o.d"
   "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.o"

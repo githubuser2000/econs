@@ -4,8 +4,22 @@
 #include <iostream>
 #include <notMain567a.h>
 #include <notMain567b.h>
+#include <econ567emo2.h>
 #include <notMainDe.h>
 #include <string>
+
+void econ678ab() {
+    start678de();
+}
+
+void econ567ab() {
+    start567a();
+    std::cout << "\n\n";
+    start567b();
+    std::cout << "\n\n";
+    run_econ567emo2();
+}
+
 void check(const std::set<int>& selected)
 {
  int mask = 0;
@@ -20,31 +34,29 @@ for (int x : selected) {
     if (x == 7) mask |= 128;
     if (x == 8) mask |= 256;
 }
+
 std::u8string text;
 switch (mask) {
         case 0b11100000:   // {5, 6, 7}
         std::cout << "5 6 7 vorhanden\n";
-            start567a();
-            std::cout << "\n\n\n\n";
-            start567b();
+        econ567ab(); 
         break;
 
     case 0b111000000:   // {6, 7, 8}
         std::cout << "6 7 8 vorhanden\n";
-            start678de();
+        econ678ab();
         break;
 
  
     case 0b10100000:   // {5, 7}
         std::cout << "5 6 7 vorhanden\n";
-            start567a();
-            std::cout << "\n\n\n\n";
-            start567b();
+        econ567ab();
         break;
 
     case 0b110000000:   // {7, 8}
-        std::cout << "6 7 8 vorhanden\n";
-            start678de();
+        std::cout << "7 8 vorhanden\n";
+        econ678ab();
+
         break;
 
     case 0b01000000:   // {6 }
@@ -105,36 +117,3 @@ switch (mask) {
  
 */
 
-
-/*
-
-std::set<int> s1 = {5,6};
-std::set<int> s2 = {5,6,7};
-std::set<int> s3 = {6,7,8};
-
-auto contains = [&](const std::set<int>& ref) {
-    return std::includes(selected.begin(), selected.end(),
-                         ref.begin(), ref.end());
-};
-
-switch (selected) {
-    case true && contains(s3):
-        std::cout << "Alle 3\n";
-        break;
-
-    case true && contains(s1):
-            std::cout << "Alle Elemente von {5,6,7} sind in meiner Menge!\n";
-            start567a();
-            std::cout << "\n\n\n\n";
-            start567b();
-            break;
-        break;
-
-    case true && contains(s2):
-        std::cout << "{6,7,8}\n";
-        break;
-
-    default:
-        std::cout << "keine bekannte Kombi\n";
-}
-}*/

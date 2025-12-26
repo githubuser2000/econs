@@ -129,6 +129,30 @@ menu/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/build
 .PHONY : menu/fast
 
+data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.o: data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.o
+
+# target to build an object file
+data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.o
+
+data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.i: data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.i
+
+# target to preprocess a source file
+data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.i
+
+data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.s: data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.s
+
+# target to generate assembly for a file
+data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.s
+
 data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.o: data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.o
 .PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.o
 
@@ -450,6 +474,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... menu"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.o"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.i"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.s"
 	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.o"
 	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.i"
 	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.s"
