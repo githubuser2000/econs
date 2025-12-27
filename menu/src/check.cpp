@@ -33,6 +33,10 @@ for (int x : selected) {
     if (x == 6) mask |= 64;
     if (x == 7) mask |= 128;
     if (x == 8) mask |= 256;
+    if (x == 9) mask |= 512;
+    if (x == 10) mask |= 1024;
+    if (x == 11) mask |= 2048;
+    if (x == 12) mask |= 4096;
 }
 
 std::u8string text;
@@ -97,6 +101,12 @@ switch (mask) {
      case 0b01000:   // {3 }
         std::cout << "{3 } vorhanden\n";
         text = u8"Landwirtschaft 🌾🌱 kann auch ein komplettes 🏛️ vollständiges Wirtschaftssystem sein 💰💼. Bauern 👨‍🌾👩‍🌾 = Landwirte 🚜 und manche Bauern 🌿 bauen zudem auch 🏡 und sind zudem Fachkräfte 🛠️📚, welches das reziproke ↔️ orthogonale 📐 rechtwinklige ⬛ Pendant zum Wirtschaftssystem Bauernstaat 🏞️ wäre, wobei pragmatische Bedingungs-Hersteller ⚙️🔧 genügen ✅ und auch Reinigungskräfte 🧹🪣, können es aber auch Meister vom Berufsfach 🏅👷 sein, wie auch Schul-Fach-Lehrer 👩‍🏫👨‍🏫, aber auch Fänger 🎯 Karten-Verantwortliche 🗂️ Filterungs-Verantwortliche 🧪 Sieb verwendende 🥣 und technische Zeichner 📐✏️, aber eigentlich sind Bedingungs-Zuständige 🛡️ das Reziproke ↩️ 90° rechtwinklige ⬛ orthogonale zum Bauernstaat der Landwirte 🌾.\n\nAgriculture 🌾🌱 can also be a complete 🏛️ full economic system 💰💼. Farmers 👨‍🌾👩‍🌾 = cultivators 🚜 and some farmers 🌿 also build big 🏡 and are furthermore skilled subject professionals 🛠️📚, which is the reciprocal ↔️ orthogonal 📐 right-angled ⬛ counterpart to the farming-state economic system 🏞️, where pragmatic condition-makers ⚙️🔧 suffice ✅ and also cleaning staff 🧹🪣, but they can also be masters of vocational fields 🏅👷, as well as school-subject teachers 👩‍🏫👨‍🏫, and also catchers 🎯 map-responsible 🗂️ filter-responsible 🧪 sieve-using 🥣 and technical draftsmen 📐✏️, but in essence the condition-responsibles 🛡️ are the reciprocal ↩️ 90° right-angled ⬛ orthogonal to the farming-state of cultivators 🌾.";
+        std::cout << reinterpret_cast<const char*>(text.c_str()) << std::endl;
+        break;
+ 
+     case 0b01000000000:   // {9 }
+        std::cout << "{9 } vorhanden\n";
+        text = u8"Einheits-Metropolen-Großstädte Wirtschafts-System Ordnung 🏙️🌐⚖️, wobei Kapitalismus deren Form in Kombination mit Zahlen Wert Geld Währungsmarkt und Aktienmarkt ist 💶📊💹😊. Also zwei Märkte eigentlich 🛍️⚖️ und damit vier Gesellschaftsklassen 🧑‍🤝‍🧑🏛️📈📉🙂. Ansonsten ist das Einheits-Metropolen-Großstädte Wirtschafts-System ein System der Variablen Einheiten der Lust Gelüste Vergnügen Einheiten 😋🎭🎉❤️ Einheiten Geld nicht immer aus Zahlen Werten Beträgen Anzahlen 💱➕➖ sondern Einheiten Variablen dessen Einheiten als korrekt Form aussehen wie Bananen Gurken Zucchinis 🍌🥒🥒🥗😂 und weniger wie Zahlenwertewährungsgeld 💵🔢🙂. \n\nUnified-metropolis-megacity economic-system order 🏙️🌍⚖️, where capitalism is its form in combination with numbers, value, money, currency market and stock market 💵📊💹🙂. So actually two markets 🛒⚖️ and therefore four social classes 🧑‍🤝‍🧑🏛️📈📉😊. Otherwise the unified-metropolis-megacity economic system is a system of variable units of desire, cravings, lust, pleasure units 😋🎭🎉❤️, units of money not always made of numbers, values, amounts, quantities 💱➕➖ but units and variables whose units in proper form look like bananas, cucumbers, zucchinis 🍌🥒🥒🥗😂 and less like numerical-value-currency-money 💵🔢🙂.";
         std::cout << reinterpret_cast<const char*>(text.c_str()) << std::endl;
         break;
  
