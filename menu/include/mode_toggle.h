@@ -1,6 +1,8 @@
 #ifndef MODE_TOGGLE_H
 #define MODE_TOGGLE_H
 
-void mode_toggle();
-
 #endif
+#pragma once
+#include <set>
+
+void mode_toggle();

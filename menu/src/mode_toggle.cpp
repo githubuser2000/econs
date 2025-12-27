@@ -3,7 +3,9 @@
 #include "check.h"
 
 #include <iostream>
+#include <iomanip>
 #include <set>
+#include <cctype>
 #include <notMainDe.h>
 //#include <notMainEn.h>
 
@@ -14,25 +16,31 @@ void mode_toggle()
     while (true) {
         system("clear");
 
-        for (int i = 1; i <= 12; ++i)
-            std::cout << "[" << (selected.count(i) ? 'x' : ' ') << "] " << i << "\n";
+        for (int i = 1; i <= 15; ++i) {
+            std::cout << "[" << (selected.count(i) ? 'x' : ' ') << "] "
+                      << std::setw(2) << std::setfill('0') << i << "\n";
+        }
 
-        std::cout << "\n1-9 toggle | q = fertig: ";
-        char c;
-        std::cin >> c;
+        std::cout << "\n01–15 toggle | q = fertig: ";
 
-        if (c == 'q') break;
-        if (c >= '0' && c <= '9') {
-            int v = c - '0';
-            if (selected.count(v)) selected.erase(v);
-            else selected.insert(v);
+        std::string in;
+        std::cin >> in;
+
+        if (in == "q") break;
+
+        if (in.size() == 2 && std::isdigit(in[0]) && std::isdigit(in[1])) {
+            int v = std::stoi(in);
+            if (v >= 1 && v <= 15) {
+                if (selected.count(v)) selected.erase(v);
+                else selected.insert(v);
+            }
         }
     }
 
     std::cout << "\nAuswahl: ";
-    for (int n : selected) std::cout << n << " ";
+    for (int n : selected)
+        std::cout << std::setw(2) << std::setfill('0') << n << " ";
     std::cout << "\n";
 
-    // 👉 Auswertung in separater Datei
     check(selected);
 }
