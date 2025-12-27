@@ -116,6 +116,12 @@ switch (mask) {
         std::cout << reinterpret_cast<const char*>(text.c_str()) << std::endl;
         break;
  
+     case 0b0100000000000:   // {11 }
+        std::cout << "{11 } vorhanden\n";
+        text = u8"In der Planeten Orbit Ökonomie 🌍🪐, der Raumschiffe 🚀🛸 im Orbit, der Massenmedien wie Theater 🎭, Oper 🎶, Kino 🎬, Television 📺, Radio 📻, Funk 🛰️, Mond 🌙 und Raumstationen 🏢🛰️ im Orbit des Gestirns ☀️: gibt es keinen Markt 🏦, wie im Kommunismus 🚫💰, der Anführer-Wirtschaft 👑, dem Gildenwesen ⚒️, dem Bauernstaat 🌾. Geben 🤲, Nehmen ✋, Klauen 🥷, Schenken 🎁 oder Planeten-Eigentum-Besitz 🪐🏠, kein Tausch 🔄, kein Markt 🏷️, kein Handel ⚖️. Das Wirtschaftsgut 💎 ist das Verhalten 🧍‍♂️🧍‍♀️ zum Verschränken 🔗 und zur Anpassung 🔄 passend zu sein 🤝. Das Delta Δ aus der mathematischen Systemtheorie 📐🧮, das es nicht nur zwischen Zahlen 1️⃣2️⃣3️⃣ gibt, sondern Allem in der Mathematik 🧠, Strukturwissenschaft 🏗️, Muster-Forschung 🧩. Es geht um Tanz 💃🕺, Kampftechniken 🥋⚔️, Schauspielerei 🎭, Darstellung 🎬, Charaktere 👤👥, Chaos 🌪️, sich anzupassen 🔄 und andere sich anpassen zu lassen 🤝 als Wirtschaftsordnung 🏛️ im chaotischen Orbit 🌌 mit Trabanten 🛰️.\n\nIn the planetary orbit economy 🌍🪐, of spaceships 🚀🛸 in orbit, of mass media like theater 🎭, opera 🎶, cinema 🎬, television 📺, radio 📻, satellites 🛰️, the moon 🌙, and space stations 🏢🛰️ in the orbit of the star ☀️: there is no market 🏦, like in communism 🚫💰, leader-economy 👑, guild systems ⚒️, or peasant states 🌾. Giving 🤲, taking ✋, stealing 🥷, gifting 🎁, or planet ownership 🪐🏠, no exchange 🔄, no market 🏷️, no trade ⚖️. The economic good 💎 is behavior 🧍‍♂️🧍‍♀️ for entangling 🔗 and adapting 🔄 to fit 🤝. The delta Δ from mathematical system theory 📐🧮, not only between numbers 1️⃣2️⃣3️⃣, but in all of mathematics 🧠, structural science 🏗️, pattern research 🧩. It is about dance 💃🕺, martial arts 🥋⚔️, acting 🎭, performance 🎬, characters 👤👥, chaos 🌪️, adapting 🔄 and letting others adapt 🤝 as the economic order 🏛️ in the chaotic orbit 🌌 with satellites 🛰️.";
+        std::cout << reinterpret_cast<const char*>(text.c_str()) << std::endl;
+        break;
+ 
  
     default:
         std::cout << "Keine relevante Kombination\n";
