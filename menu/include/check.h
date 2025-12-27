@@ -7,6 +7,7 @@
 void econ567ab();
 void econ678ab();
 
+//void econ4578();
 // Check-Funktion, die Mengen überprüft
 void check(const std::set<int>& selected);
 
