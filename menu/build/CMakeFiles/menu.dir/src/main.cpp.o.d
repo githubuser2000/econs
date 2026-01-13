@@ -1,5 +1,5 @@
 CMakeFiles/menu.dir/src/main.cpp.o: \
-  /data/data/com.termux/files/home/myRepos/econs/menu/src/main.cpp \
+  /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/src/main.cpp \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/iostream \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config_site \
@@ -865,8 +865,8 @@ CMakeFiles/menu.dir/src/main.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/stack \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/print \
   /data/data/com.termux/files/usr/bin/../../usr/include/unistd.h \
-  /data/data/com.termux/files/home/myRepos/econs/menu/include/mode_text.h \
+  /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/include/mode_text.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/set \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__tree \
-  /data/data/com.termux/files/home/myRepos/econs/menu/include/mode_toggle.h \
-  /data/data/com.termux/files/home/myRepos/econs/menu/include/mode_ncurses.h
+  /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/include/mode_toggle.h \
+  /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/include/mode_ncurses.h

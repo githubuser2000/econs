@@ -54,10 +54,10 @@ RM = /data/data/com.termux/files/usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/myRepos/econs/menu
+CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/Eigene-Dateien/econs/menu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/data/com.termux/files/home/myRepos/econs/menu/build
+CMAKE_BINARY_DIR = /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/menu.dir/clean
 CMakeFiles/menu.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/myRepos/econs/menu/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target menu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/Eigene-Dateien/econs/menu/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target menu"
 .PHONY : CMakeFiles/menu.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/menu.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/myRepos/econs/menu/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/menu.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/myRepos/econs/menu/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/build/CMakeFiles 0
 .PHONY : CMakeFiles/menu.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ menu: CMakeFiles/menu.dir/rule
 # codegen rule for target.
 CMakeFiles/menu.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/myRepos/econs/menu/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Finished codegen for target menu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/Eigene-Dateien/econs/menu/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Finished codegen for target menu"
 .PHONY : CMakeFiles/menu.dir/codegen
 
 # clean rule for target.
