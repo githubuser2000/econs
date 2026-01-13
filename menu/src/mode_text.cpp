@@ -17,7 +17,10 @@
 
 
 void mode_text() {
-    std::set<int> allowed = {1,2,3,4,5,6,7,8,9,10,11,12};
+    std::set<int> allowed;
+    for (int i = 1; i <= 16; ++i) {
+        allowed.insert(i);
+    }
     std::set<int> selected;
 
     std::cout << "Eingabe (z.B. 2 5 6 7 8): ";

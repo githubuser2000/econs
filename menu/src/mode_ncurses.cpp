@@ -22,7 +22,7 @@ void mode_ncurses() {
 
     while (true) {
         clear();
-        for (int i = 1; i <= 12; ++i) { // 1 bis 12
+        for (int i = 1; i <= 16; ++i) { // 1 bis 12
             if (i - 1 == cursor) attron(A_REVERSE);
             printw("[%c] %d\n", selected.count(i) ? 'x' : ' ', i);
             if (i - 1 == cursor) attroff(A_REVERSE);

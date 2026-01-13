@@ -24,19 +24,7 @@ void check(const std::set<int>& selected)
 {
  int mask = 0;
 for (int x : selected) {
-    if (x == 0) mask |= 1;
-    if (x == 1) mask |= 2;
-    if (x == 2) mask |= 4;
-    if (x == 3) mask |= 8;
-    if (x == 4) mask |= 16;
-    if (x == 5) mask |= 32;
-    if (x == 6) mask |= 64;
-    if (x == 7) mask |= 128;
-    if (x == 8) mask |= 256;
-    if (x == 9) mask |= 512;
-    if (x == 10) mask |= 1024;
-    if (x == 11) mask |= 2048;
-    if (x == 12) mask |= 4096;
+    mask |= (1 << x);
 }
 
 std::u8string text;
@@ -146,6 +134,10 @@ case 0b01000000000:   // {9 }
         std::cout << "{4, 5, 7} vorhanden\n";
         text = u8"Führungs-Kommunen-Sklaverei ist die Kombination aus Kommunismus Sklaverei und der Anführerwirtschaftsform. 🌐✨ Die Währung ist ein Richtungswinkel der Länge 12, welcher in beide Richtungen zeigt. �🔁 Es gibt Sklaven Hierarchien von Sklaven, die niemand Besitzt und kein Eigentum sind von 12 Stufen 1.1, 1.2, 1.3, 2.1, 2.2, 2.3, 3.1, 3.2, 3.3, 4.1, 4.2, 4.3. 🏛️📐 4. Ist die Elite Anführer Chefs Korrekte Logiker 👑🧠✔️ 3. Sind Arbeitnehmer, der Klerus, Stolze erhabene Menschen Bänker Wissenschaftler Institute Experten Profis, 💼🎓🏦🔬⭐ 2. sind normale gewöhnliche Bürger Völker Arbeiter. 👥🌍🛠️ Es gibt keine Geld-Währung aus Zahlen Werten Beträgen. 🚫💰📊 Die Währung wird durch Anführer Winkelrichtungsgeber verwaltet. �⚙️👤 Zwischen Arbeitnehmer mit Arbeitgeber vs zwischen Anführer Elite Chefs vs zwischen Landwirten Cowgirl Bauern Überlebenskünstlern vs zwischen Anführer Elite Chefs vs zwischen Mentoren Moderatoren Mediatoren für die unterste Schicht, Einzelpersonen, Kleinkriminelle, Behinderte Kranke Opfer Hilfsbedürftige. 🤝🌾🤠🧑‍🌾�❤️‍� Die Währung ist ein Richtungswinkel der Länge 12, welcher in beide Richtungen zeigt. �🔁📏 \n\nLeadership-Communes-Slavery is the combination of communism slavery and the leader economic system. 🌐✨ The currency is a directional angle of length 12, which points in both directions. �🔁 There are slave hierarchies of slaves who belong to no one and are not property, with 12 levels 1.1, 1.2, 1.3, 2.1, 2.2, 2.3, 3.1, 3.2, 3.3, 4.1, 4.2, 4.3. 🏛️📐 4. is the elite leaders chiefs correct logicians 👑🧠✔️ 3. are workers, the clergy, proud noble people bankers scientists institutes experts professionals, 💼🎓 🏦🔬⭐ 2. are normal ordinary citizens peoples workers. 👥🌍🛠️ There is no money currency made of numbers values amounts. 🚫💰📊 The currency is managed by leader directional-angle givers. �⚙️👤 Between employees with employers vs between leader elite chiefs vs between farmers cowgirls peasants survivalists vs between leader elite chiefs vs between mentors moderators mediators for the lowest layer, individuals, petty criminals, disabled ill victims people in need. 🤝🌾🤠🧑‍🌾�❤️‍� The currency is a directional angle of length 12, which points in both directions. �🔁📏.";
         std::cout << reinterpret_cast<const char*>(text.c_str()) << std::endl;
+        break; 
+     case 0b01000000000000000:   // {15 }
+        std::cout << "{15} vorhanden\n";
+        std::cout << "Kreislaufwirtschaft ist Universum Wirtschafts System und der Markt Handel Tausch von Tod Lebendig Krank Gesund Werdend oder Bewirkt Innerlich oder aesserlich entweder bewirkt oder kontinuierlich.\n";
         break; 
  
     default:
