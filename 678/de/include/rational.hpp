@@ -8,7 +8,8 @@
 struct Rational {
     int num;
     int den;
-
+    // Konstruktor hinzufügen
+    Rational(int n, int d) : num(n), den(d) {}
     double toDouble() const {
         return static_cast<double>(num) / static_cast<double>(den);
     }

@@ -27,7 +27,7 @@ for (int x : selected) {
     mask |= (1 << x);
 }
 
-std::u8string text;
+std::string text;
 switch (mask) {
         case 0b11100000:   // {5, 6, 7}
         std::cout << "5 6 7 vorhanden\n";

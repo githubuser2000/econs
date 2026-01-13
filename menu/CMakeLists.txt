@@ -14,6 +14,14 @@ option(USE_NCURSES "Enable ncurses TUI" ON)
 
 # Alle cpp-Dateien im Ordner src
 file(GLOB MENU_SRC "src/*.cpp")
+# Mindestversion von CMake
+cmake_minimum_required(VERSION 3.12)
+project(MeinProjekt)
+
+# C++20 aktivieren
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(menu
     ${MENU_SRC}
@@ -33,6 +41,7 @@ add_executable(menu
     src/mode_toggle.cpp
     src/mode_ncurses.cpp
 )
+
 
 # Header-Verzeichnisse hinzufügen
 target_include_directories(menu PRIVATE
