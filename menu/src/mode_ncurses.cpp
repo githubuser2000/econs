@@ -32,10 +32,10 @@ void mode_ncurses() {
         int ch = getch();
         if (ch == KEY_UP && cursor > 0)
             cursor--;
-        else if (ch == KEY_DOWN && cursor < 11) // 0 bis 11
+        else if (ch == KEY_DOWN && cursor < 15) // 0 bis 16
             cursor++;
         else if (ch == ' ') {
-            int v = cursor + 1; // Cursor 0–11 → Werte 1–12
+            int v = cursor + 1; // Cursor 0–16 → Werte 1–16
             if (selected.count(v))
                 selected.erase(v);
             else
