@@ -167,6 +167,14 @@ case 0b01000000000:   // {9 }
         std::cout << "Kreislaufwirtschaft 🔄🌍 ist Universum ♾️ Wirtschafts 💱 System 🧩 Ordnung ⚖️ und der Markt 🏪 Handel 🤝 Tausch 🔁 von (statt Zahlen 🔢 Werte 💎 Kreislaufmomente 🔄✨) Tod 💀 Lebendig ❤️ Krank 🤒 Gesund 💪 Werdend 🌱 oder Bewirkt ⚡ Innerlich 🧠 oder äußerlich 🌐 geworden entweder bewirkt ⚙️ oder kontinuierlich ♻️ stattfindend ⏳. Kreislaufwirtschaft 🔁 bzw. Universumwirtschaft 🌌 greift in den natürlichen 🌿 Kreislauf ♻️ ein, dass es erst Pflanzen 🌱 dann Tiere 🐾 dann Kompost 🌾 von toten 💀 Lebewesen 🧬 gibt. Es gibt diesen Kreislauf 🔄 auch für Industrien 🏭 und für Chemie ⚗️ für den Geldfluss 💰💱 selbst und all diese Kreisläufe 🔁🌍 gehören zu Kreislaufwirtschaft ♻️🌱. \n\nCircular economy 🔄🌍 is universe ♾️ economic 💱 system 🧩 order ⚖️ and the market 🏪 trade 🤝 exchange 🔁 of (instead of numbers 🔢 values 💎 cycle moments 🔄✨) death 💀 alive ❤️ sick 🤒 healthy 💪 becoming 🌱 or effected ⚡ internally 🧠 or externally 🌐 become either effected ⚙️ or continuously ♻️ taking place ⏳. Circular economy 🔁 or universe economy 🌌 intervenes in the natural 🌿 cycle ♻️ so that there are first plants 🌱 then animals 🐾 then compost 🌾 from dead 💀 living beings 🧬. There is this cycle 🔄 also for industries 🏭 and for chemistry ⚗️ for the flow of money 💰💱 itself and all these cycles 🔁🌍 belong to the circular economy ♻️🌱.\n";
         break; 
  
+     case 0b010000000000000000:   // {16 }
+        std::cout << "{16} vorhanden\n";
+        std::cout << "Die Währung 💱✨ der Dimensionen des Multiversums 16 P-Kontinuums ♾️📐 sind algebraische 📘 Zahlen 🔢 also Polynome 📐🧮 wie a ✨ mal ✖️ x² ⬆️ plus ➕ b ✨ mal ✖️ x¹ ➡️ plus ➕ c ✨.. \n\nThe currency 💱✨ of dimensions of the multiverse the 16 P continuum ♾️📐 are algebraic 📘 numbers 🔢, that is polynomials 📐🧮 like a ✨ times ✖️ x² ⬆️ plus ➕ b ✨ times ✖️ x¹ ➡️ plus ➕ c ✨.\n";
+        break; 
+     case 0b010000000000000000000:   // {19 }
+        std::cout << "{19} vorhanden\n";
+        std::cout << "Die Währung Expression Ausdruck Extraktion 💱✨ des 19 S-Kontinuums ♾️🌀 sind perfektoide 🔮 Zahlen 🔢, welche durch mehrere Kommas ➿ getrennte p-adische 🔢🌀 oder n-adische 🔢🌐 Zahlen 🔢 als eine ☝️ Zahl 🔮 sind..\n\nThe currency expression extraction 💱✨ of the 19 S continuum ♾️🌀 are perfectoid 🔮 numbers 🔢, which are p-adic 🔢🌀 or n-adic 🔢🌐 numbers 🔢 separated by multiple commas ➿ and combined as one ☝️ number 🔮.\n";
+        break; 
     default:
         std::cout << "Keine relevante Kombination\n";
 }
