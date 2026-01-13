@@ -8,24 +8,29 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/alex/myRepos/econs/567/src/econ567emo2.cpp" "CMakeFiles/menu.dir/home/alex/myRepos/econs/567/src/econ567emo2.cpp.o" "gcc" "CMakeFiles/menu.dir/home/alex/myRepos/econs/567/src/econ567emo2.cpp.o.d"
-  "/home/alex/myRepos/econs/567/src/math_utils.cpp" "CMakeFiles/menu.dir/home/alex/myRepos/econs/567/src/math_utils.cpp.o" "gcc" "CMakeFiles/menu.dir/home/alex/myRepos/econs/567/src/math_utils.cpp.o.d"
-  "/home/alex/myRepos/econs/567/src/notMain567a.cpp" "CMakeFiles/menu.dir/home/alex/myRepos/econs/567/src/notMain567a.cpp.o" "gcc" "CMakeFiles/menu.dir/home/alex/myRepos/econs/567/src/notMain567a.cpp.o.d"
-  "/home/alex/myRepos/econs/678/de/src/notMainDe.cpp" "CMakeFiles/menu.dir/home/alex/myRepos/econs/678/de/src/notMainDe.cpp.o" "gcc" "CMakeFiles/menu.dir/home/alex/myRepos/econs/678/de/src/notMainDe.cpp.o.d"
-  "/home/alex/myRepos/econs/678/de/src/random.cpp" "CMakeFiles/menu.dir/home/alex/myRepos/econs/678/de/src/random.cpp.o" "gcc" "CMakeFiles/menu.dir/home/alex/myRepos/econs/678/de/src/random.cpp.o.d"
-  "/home/alex/myRepos/econs/678/de/src/space.cpp" "CMakeFiles/menu.dir/home/alex/myRepos/econs/678/de/src/space.cpp.o" "gcc" "CMakeFiles/menu.dir/home/alex/myRepos/econs/678/de/src/space.cpp.o.d"
-  "/home/alex/myRepos/econs/678/de/src/text.cpp" "CMakeFiles/menu.dir/home/alex/myRepos/econs/678/de/src/text.cpp.o" "gcc" "CMakeFiles/menu.dir/home/alex/myRepos/econs/678/de/src/text.cpp.o.d"
-  "/home/alex/myRepos/econs/econ567/src/notMain567b.cpp" "CMakeFiles/menu.dir/home/alex/myRepos/econs/econ567/src/notMain567b.cpp.o" "gcc" "CMakeFiles/menu.dir/home/alex/myRepos/econs/econ567/src/notMain567b.cpp.o.d"
-  "/home/alex/myRepos/econs/menu/src/bitmask.cpp" "CMakeFiles/menu.dir/src/bitmask.cpp.o" "gcc" "CMakeFiles/menu.dir/src/bitmask.cpp.o.d"
-  "/home/alex/myRepos/econs/menu/src/check.cpp" "CMakeFiles/menu.dir/src/check.cpp.o" "gcc" "CMakeFiles/menu.dir/src/check.cpp.o.d"
-  "/home/alex/myRepos/econs/menu/src/main.cpp" "CMakeFiles/menu.dir/src/main.cpp.o" "gcc" "CMakeFiles/menu.dir/src/main.cpp.o.d"
-  "/home/alex/myRepos/econs/menu/src/mode_ncurses.cpp" "CMakeFiles/menu.dir/src/mode_ncurses.cpp.o" "gcc" "CMakeFiles/menu.dir/src/mode_ncurses.cpp.o.d"
-  "/home/alex/myRepos/econs/menu/src/mode_text.cpp" "CMakeFiles/menu.dir/src/mode_text.cpp.o" "gcc" "CMakeFiles/menu.dir/src/mode_text.cpp.o.d"
-  "/home/alex/myRepos/econs/menu/src/mode_toggle.cpp" "CMakeFiles/menu.dir/src/mode_toggle.cpp.o" "gcc" "CMakeFiles/menu.dir/src/mode_toggle.cpp.o.d"
+  "/data/data/com.termux/files/home/allRepos/econs/567/src/econ567emo2.cpp" "CMakeFiles/menu.dir/data/data/com.termux/files/home/allRepos/econs/567/src/econ567emo2.cpp.o" "gcc" "CMakeFiles/menu.dir/data/data/com.termux/files/home/allRepos/econs/567/src/econ567emo2.cpp.o.d"
+  "/data/data/com.termux/files/home/allRepos/econs/567/src/math_utils.cpp" "CMakeFiles/menu.dir/data/data/com.termux/files/home/allRepos/econs/567/src/math_utils.cpp.o" "gcc" "CMakeFiles/menu.dir/data/data/com.termux/files/home/allRepos/econs/567/src/math_utils.cpp.o.d"
+  "/data/data/com.termux/files/home/allRepos/econs/567/src/notMain567a.cpp" "CMakeFiles/menu.dir/data/data/com.termux/files/home/allRepos/econs/567/src/notMain567a.cpp.o" "gcc" "CMakeFiles/menu.dir/data/data/com.termux/files/home/allRepos/econs/567/src/notMain567a.cpp.o.d"
+  "/data/data/com.termux/files/home/allRepos/econs/678/de/src/notMainDe.cpp" "CMakeFiles/menu.dir/data/data/com.termux/files/home/allRepos/econs/678/de/src/notMainDe.cpp.o" "gcc" "CMakeFiles/menu.dir/data/data/com.termux/files/home/allRepos/econs/678/de/src/notMainDe.cpp.o.d"
+  "/data/data/com.termux/files/home/allRepos/econs/678/de/src/random.cpp" "CMakeFiles/menu.dir/data/data/com.termux/files/home/allRepos/econs/678/de/src/random.cpp.o" "gcc" "CMakeFiles/menu.dir/data/data/com.termux/files/home/allRepos/econs/678/de/src/random.cpp.o.d"
+  "/data/data/com.termux/files/home/allRepos/econs/678/de/src/space.cpp" "CMakeFiles/menu.dir/data/data/com.termux/files/home/allRepos/econs/678/de/src/space.cpp.o" "gcc" "CMakeFiles/menu.dir/data/data/com.termux/files/home/allRepos/econs/678/de/src/space.cpp.o.d"
+  "/data/data/com.termux/files/home/allRepos/econs/678/de/src/text.cpp" "CMakeFiles/menu.dir/data/data/com.termux/files/home/allRepos/econs/678/de/src/text.cpp.o" "gcc" "CMakeFiles/menu.dir/data/data/com.termux/files/home/allRepos/econs/678/de/src/text.cpp.o.d"
+  "/data/data/com.termux/files/home/allRepos/econs/econ567/src/notMain567b.cpp" "CMakeFiles/menu.dir/data/data/com.termux/files/home/allRepos/econs/econ567/src/notMain567b.cpp.o" "gcc" "CMakeFiles/menu.dir/data/data/com.termux/files/home/allRepos/econs/econ567/src/notMain567b.cpp.o.d"
+  "/data/data/com.termux/files/home/allRepos/econs/menu/src/bitmask.cpp" "CMakeFiles/menu.dir/src/bitmask.cpp.o" "gcc" "CMakeFiles/menu.dir/src/bitmask.cpp.o.d"
+  "/data/data/com.termux/files/home/allRepos/econs/menu/src/check.cpp" "CMakeFiles/menu.dir/src/check.cpp.o" "gcc" "CMakeFiles/menu.dir/src/check.cpp.o.d"
+  "/data/data/com.termux/files/home/allRepos/econs/menu/src/main.cpp" "CMakeFiles/menu.dir/src/main.cpp.o" "gcc" "CMakeFiles/menu.dir/src/main.cpp.o.d"
+  "/data/data/com.termux/files/home/allRepos/econs/menu/src/mode_ncurses.cpp" "CMakeFiles/menu.dir/src/mode_ncurses.cpp.o" "gcc" "CMakeFiles/menu.dir/src/mode_ncurses.cpp.o.d"
+  "/data/data/com.termux/files/home/allRepos/econs/menu/src/mode_text.cpp" "CMakeFiles/menu.dir/src/mode_text.cpp.o" "gcc" "CMakeFiles/menu.dir/src/mode_text.cpp.o.d"
+  "/data/data/com.termux/files/home/allRepos/econs/menu/src/mode_toggle.cpp" "CMakeFiles/menu.dir/src/mode_toggle.cpp.o" "gcc" "CMakeFiles/menu.dir/src/mode_toggle.cpp.o.d"
+  "" "/data/data/com.termux/files/home/allRepos/econs/menu/bin/menu" "gcc" "CMakeFiles/menu.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
 set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

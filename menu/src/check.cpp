@@ -8,6 +8,24 @@
 #include <notMainDe.h>
 #include <string>
 
+// Fallunterscheidung basierend auf dem CMake-Flag
+#ifdef USE_CPP20_STRINGS
+    using CompatString = std::u8string;
+#else
+    using CompatString = std::string;
+#endif
+
+void checkStrType(const std::set<int>& s) {
+    CompatString text;
+    
+    #ifdef USE_CPP20_STRINGS
+        text = u8"Dein Text mit Emojis 🙂";
+    #else
+        // In C++17 kann u8 einem normalen String zugewiesen werden
+        text = u8"Dein Text mit Emojis 🙂"; 
+    #endif
+}
+
 void econ678ab() {
     start678de();
 }
@@ -27,7 +45,8 @@ for (int x : selected) {
     mask |= (1 << x);
 }
 
-std::string text;
+//std::string text;
+CompatString text;
 switch (mask) {
         case 0b11100000:   // {5, 6, 7}
         std::cout << "5 6 7 vorhanden\n";

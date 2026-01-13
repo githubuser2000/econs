@@ -14,14 +14,19 @@ option(USE_NCURSES "Enable ncurses TUI" ON)
 
 # Alle cpp-Dateien im Ordner src
 file(GLOB MENU_SRC "src/*.cpp")
-# Mindestversion von CMake
-cmake_minimum_required(VERSION 3.12)
-project(MeinProjekt)
 
-# C++20 aktivieren
-set(CMAKE_CXX_STANDARD 20)
+# Standard prüfen
+if(ANDROID)
+    message(STATUS "Termux erkannt: Setze C++20")
+    set(CMAKE_CXX_STANDARD 20)
+    add_definitions(-DUSE_CPP20_STRINGS)
+else()
+    message(STATUS "Fedora/Desktop erkannt: Setze C++17")
+    set(CMAKE_CXX_STANDARD 17)
+endif()
+
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)
+
 
 add_executable(menu
     ${MENU_SRC}

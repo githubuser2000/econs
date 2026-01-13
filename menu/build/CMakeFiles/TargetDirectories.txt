@@ -1,3 +1,3 @@
-/home/alex/myRepos/econs/menu/build/CMakeFiles/menu.dir
-/home/alex/myRepos/econs/menu/build/CMakeFiles/edit_cache.dir
-/home/alex/myRepos/econs/menu/build/CMakeFiles/rebuild_cache.dir
+/data/data/com.termux/files/home/allRepos/econs/menu/build/CMakeFiles/menu.dir
+/data/data/com.termux/files/home/allRepos/econs/menu/build/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/allRepos/econs/menu/build/CMakeFiles/rebuild_cache.dir
