@@ -1,6 +1,6 @@
 CMakeFiles/menu.dir/src/bitmask.cpp.o: \
-  /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/src/bitmask.cpp \
-  /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/include/bitmask.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/src/bitmask.cpp \
+  /data/data/com.termux/files/home/myRepos/econs/menu/include/bitmask.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/set \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/equal.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/comp.h \

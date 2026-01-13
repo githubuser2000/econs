@@ -57,10 +57,10 @@ RM = /data/data/com.termux/files/usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/Eigene-Dateien/econs/menu
+CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/myRepos/econs/menu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/build
+CMAKE_BINARY_DIR = /data/data/com.termux/files/home/myRepos/econs/menu/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/build/CMakeFiles /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/myRepos/econs/menu/build/CMakeFiles /data/data/com.termux/files/home/myRepos/econs/menu/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/myRepos/econs/menu/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,197 +129,197 @@ menu/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/build
 .PHONY : menu/fast
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/econ567emo2.o: data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/econ567emo2.cpp.o
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/econ567emo2.o
+data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.o: data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.o
 
 # target to build an object file
-data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/econ567emo2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/econ567emo2.cpp.o
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/econ567emo2.cpp.o
+data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.o
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/econ567emo2.i: data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/econ567emo2.cpp.i
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/econ567emo2.i
+data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.i: data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.i
 
 # target to preprocess a source file
-data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/econ567emo2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/econ567emo2.cpp.i
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/econ567emo2.cpp.i
+data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.i
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/econ567emo2.s: data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/econ567emo2.cpp.s
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/econ567emo2.s
+data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.s: data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.s
 
 # target to generate assembly for a file
-data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/econ567emo2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/econ567emo2.cpp.s
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/econ567emo2.cpp.s
+data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.cpp.s
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/math_utils.o: data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/math_utils.cpp.o
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/math_utils.o
+data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.o: data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.o
 
 # target to build an object file
-data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/math_utils.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/math_utils.cpp.o
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/math_utils.cpp.o
+data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.o
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/math_utils.i: data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/math_utils.cpp.i
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/math_utils.i
+data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.i: data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.i
 
 # target to preprocess a source file
-data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/math_utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/math_utils.cpp.i
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/math_utils.cpp.i
+data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.i
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/math_utils.s: data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/math_utils.cpp.s
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/math_utils.s
+data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.s: data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.s
 
 # target to generate assembly for a file
-data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/math_utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/math_utils.cpp.s
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/math_utils.cpp.s
+data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.cpp.s
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/notMain567a.o: data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/notMain567a.cpp.o
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/notMain567a.o
+data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.o: data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.o
 
 # target to build an object file
-data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/notMain567a.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/notMain567a.cpp.o
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/notMain567a.cpp.o
+data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.o
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/notMain567a.i: data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/notMain567a.cpp.i
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/notMain567a.i
+data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.i: data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.i
 
 # target to preprocess a source file
-data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/notMain567a.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/notMain567a.cpp.i
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/notMain567a.cpp.i
+data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.i
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/notMain567a.s: data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/notMain567a.cpp.s
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/notMain567a.s
+data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.s: data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.s
 
 # target to generate assembly for a file
-data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/notMain567a.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/notMain567a.cpp.s
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/notMain567a.cpp.s
+data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.cpp.s
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/notMainDe.o: data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/notMainDe.cpp.o
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/notMainDe.o
+data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.o: data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.o
 
 # target to build an object file
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/notMainDe.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/notMainDe.cpp.o
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/notMainDe.cpp.o
+data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.o
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/notMainDe.i: data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/notMainDe.cpp.i
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/notMainDe.i
+data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.i: data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.i
 
 # target to preprocess a source file
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/notMainDe.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/notMainDe.cpp.i
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/notMainDe.cpp.i
+data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.i
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/notMainDe.s: data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/notMainDe.cpp.s
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/notMainDe.s
+data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.s: data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.s
 
 # target to generate assembly for a file
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/notMainDe.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/notMainDe.cpp.s
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/notMainDe.cpp.s
+data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.cpp.s
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/random.o: data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/random.cpp.o
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/random.o
+data/data/com.termux/files/home/myRepos/econs/678/de/src/random.o: data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/random.o
 
 # target to build an object file
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/random.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/random.cpp.o
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/random.cpp.o
+data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.o
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/random.i: data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/random.cpp.i
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/random.i
+data/data/com.termux/files/home/myRepos/econs/678/de/src/random.i: data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/random.i
 
 # target to preprocess a source file
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/random.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/random.cpp.i
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/random.cpp.i
+data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.i
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/random.s: data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/random.cpp.s
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/random.s
+data/data/com.termux/files/home/myRepos/econs/678/de/src/random.s: data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/random.s
 
 # target to generate assembly for a file
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/random.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/random.cpp.s
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/random.cpp.s
+data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/random.cpp.s
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/space.o: data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/space.cpp.o
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/space.o
+data/data/com.termux/files/home/myRepos/econs/678/de/src/space.o: data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/space.o
 
 # target to build an object file
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/space.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/space.cpp.o
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/space.cpp.o
+data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.o
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/space.i: data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/space.cpp.i
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/space.i
+data/data/com.termux/files/home/myRepos/econs/678/de/src/space.i: data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/space.i
 
 # target to preprocess a source file
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/space.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/space.cpp.i
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/space.cpp.i
+data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.i
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/space.s: data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/space.cpp.s
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/space.s
+data/data/com.termux/files/home/myRepos/econs/678/de/src/space.s: data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/space.s
 
 # target to generate assembly for a file
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/space.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/space.cpp.s
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/space.cpp.s
+data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/space.cpp.s
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/text.o: data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/text.cpp.o
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/text.o
+data/data/com.termux/files/home/myRepos/econs/678/de/src/text.o: data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/text.o
 
 # target to build an object file
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/text.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/text.cpp.o
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/text.cpp.o
+data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.o
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/text.i: data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/text.cpp.i
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/text.i
+data/data/com.termux/files/home/myRepos/econs/678/de/src/text.i: data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/text.i
 
 # target to preprocess a source file
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/text.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/text.cpp.i
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/text.cpp.i
+data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.i
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/text.s: data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/text.cpp.s
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/text.s
+data/data/com.termux/files/home/myRepos/econs/678/de/src/text.s: data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/text.s
 
 # target to generate assembly for a file
-data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/text.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/text.cpp.s
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/text.cpp.s
+data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/678/de/src/text.cpp.s
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/econ567/src/notMain567b.o: data/data/com.termux/files/home/Eigene-Dateien/econs/econ567/src/notMain567b.cpp.o
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/econ567/src/notMain567b.o
+data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.o: data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.o
 
 # target to build an object file
-data/data/com.termux/files/home/Eigene-Dateien/econs/econ567/src/notMain567b.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/econ567/src/notMain567b.cpp.o
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/econ567/src/notMain567b.cpp.o
+data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.o
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/econ567/src/notMain567b.i: data/data/com.termux/files/home/Eigene-Dateien/econs/econ567/src/notMain567b.cpp.i
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/econ567/src/notMain567b.i
+data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.i: data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.i
 
 # target to preprocess a source file
-data/data/com.termux/files/home/Eigene-Dateien/econs/econ567/src/notMain567b.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/econ567/src/notMain567b.cpp.i
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/econ567/src/notMain567b.cpp.i
+data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.i
 
-data/data/com.termux/files/home/Eigene-Dateien/econs/econ567/src/notMain567b.s: data/data/com.termux/files/home/Eigene-Dateien/econs/econ567/src/notMain567b.cpp.s
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/econ567/src/notMain567b.s
+data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.s: data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.s
 
 # target to generate assembly for a file
-data/data/com.termux/files/home/Eigene-Dateien/econs/econ567/src/notMain567b.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/Eigene-Dateien/econs/econ567/src/notMain567b.cpp.s
-.PHONY : data/data/com.termux/files/home/Eigene-Dateien/econs/econ567/src/notMain567b.cpp.s
+data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.cpp.s
 
 src/bitmask.o: src/bitmask.cpp.o
 .PHONY : src/bitmask.o
@@ -474,30 +474,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... menu"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/econ567emo2.o"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/econ567emo2.i"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/econ567emo2.s"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/math_utils.o"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/math_utils.i"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/math_utils.s"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/notMain567a.o"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/notMain567a.i"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/567/src/notMain567a.s"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/notMainDe.o"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/notMainDe.i"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/notMainDe.s"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/random.o"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/random.i"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/random.s"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/space.o"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/space.i"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/space.s"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/text.o"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/text.i"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/678/de/src/text.s"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/econ567/src/notMain567b.o"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/econ567/src/notMain567b.i"
-	@echo "... data/data/com.termux/files/home/Eigene-Dateien/econs/econ567/src/notMain567b.s"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.o"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.i"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/econ567emo2.s"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.o"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.i"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/math_utils.s"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.o"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.i"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/567/src/notMain567a.s"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.o"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.i"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/notMainDe.s"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/random.o"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/random.i"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/random.s"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/space.o"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/space.i"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/space.s"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/text.o"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/text.i"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/678/de/src/text.s"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.o"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.i"
+	@echo "... data/data/com.termux/files/home/myRepos/econs/econ567/src/notMain567b.s"
 	@echo "... src/bitmask.o"
 	@echo "... src/bitmask.i"
 	@echo "... src/bitmask.s"

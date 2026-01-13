@@ -1,7 +1,7 @@
 CMakeFiles/menu.dir/src/mode_ncurses.cpp.o: \
-  /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/src/mode_ncurses.cpp \
-  /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/include/mode_ncurses.h \
-  /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/include/bitmask.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/src/mode_ncurses.cpp \
+  /data/data/com.termux/files/home/myRepos/econs/menu/include/mode_ncurses.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/include/bitmask.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/set \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/equal.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/comp.h \
@@ -810,8 +810,8 @@ CMakeFiles/menu.dir/src/mode_ncurses.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/system_error \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/streambuf \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/cstdarg \
-  /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/../567/include/notMain567a.h \
-  /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/../econ567/include/notMain567b.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/../567/include/notMain567a.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/../econ567/include/notMain567b.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/iostream \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/istream \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ostream/basic_ostream.h \
@@ -871,11 +871,11 @@ CMakeFiles/menu.dir/src/mode_ncurses.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/stack \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/print \
   /data/data/com.termux/files/usr/bin/../../usr/include/unistd.h \
-  /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/../econ567/include/math_utils.h \
-  /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/include/check.h \
-  /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/../678/de/include/notMainDe.h \
-  /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/../678/de/include/text.h \
-  /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/../678/de/include/rational.hpp \
+  /data/data/com.termux/files/home/myRepos/econs/menu/../econ567/include/math_utils.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/include/check.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/../678/de/include/notMainDe.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/../678/de/include/text.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/../678/de/include/rational.hpp \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/random \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/bernoulli_distribution.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/uniform_real_distribution.h \
@@ -927,7 +927,7 @@ CMakeFiles/menu.dir/src/mode_ncurses.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/seed_seq.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/student_t_distribution.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/weibull_distribution.h \
-  /data/data/com.termux/files/home/Eigene-Dateien/econs/menu/../678/de/include/space.h \
+  /data/data/com.termux/files/home/myRepos/econs/menu/../678/de/include/space.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/ncurses.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/ncurses_dll.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/unctrl.h \
