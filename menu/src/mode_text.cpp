@@ -18,7 +18,7 @@
 
 void mode_text() {
     std::set<int> allowed;
-    for (int i = 1; i <= 19; ++i) {
+    for (int i = 1; i <= 20; ++i) {
         allowed.insert(i);
     }
     std::set<int> selected;

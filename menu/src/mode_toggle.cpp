@@ -14,7 +14,7 @@ void mode_toggle()
     while (true) {
         system("clear");
 
-        for (int i = 1; i <= 19; ++i)
+        for (int i = 1; i <= 20; ++i)
             std::cout << "[" << (selected.count(i) ? 'x' : ' ') << "] " << i << "\n";
 
         std::cout << "\n1-9 toggle | q = fertig: ";
