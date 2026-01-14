@@ -1,0 +1,23 @@
+#!/bin/sh
+
+while true
+do
+    # Starte das Programm
+    menu
+
+    # Frage den Nutzer
+    printf "Beenden mit (j/y)? Beliebige Taste zum Neustart: "
+    read antwort
+
+    # POSIX-konformer Vergleich
+    case "$antwort" in
+        j|J|y|Y)
+            echo "Skript beendet."
+            exit 0
+            ;;
+        *)
+            echo "Neustart..."
+            ;;
+    esac
+done
+
