@@ -5,13 +5,14 @@
 
 int main() {
     std::cout <<
-        "Modus waehlen:\n"
-        "1 = Text-Eingabe\n"
+        "ModeModus choseWählen:\n"
+        "InsteadStatt SingularEinzel NumberZahl AlsoAuch PossibleMögliche CombinationsKombinationen, 8 10, 5 7, 5 6 7, 4 5 7, 5 6, 6 7 8:\n"
+        "1 = Text-InputEingabe\n"
         //"2 = Toggle-TUI\n"
 #ifdef USE_NCURSES
-        "3 = ncurses-TUI\n"
+        "3 = ncurses-TUI_TextUserInterface_TUI\n"
 #endif
-        "Auswahl: ";
+        "SelectionAuswahl: ";
 
     int mode;
     std::cin >> mode;
