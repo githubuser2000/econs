@@ -181,6 +181,7 @@ case 0b01000000000:   // {9 }
      case 0b01000000000000000:   // {15 }
         std::cout << "{15} vorhanden\n";
         std::cout << "Kreislaufwirtschaft 🔄🌍 ist Universum ♾️ Wirtschafts 💱 System 🧩 Ordnung ⚖️ und der Markt 🏪 Handel 🤝 Tausch 🔁 von (statt Zahlen 🔢 Werte 💎 Kreislaufmomente 🔄✨) Tod 💀 Lebendig ❤️ Krank 🤒 Gesund 💪 Werdend 🌱 oder Bewirkt ⚡ Innerlich 🧠 oder äußerlich 🌐 geworden entweder bewirkt ⚙️ oder kontinuierlich ♻️ stattfindend ⏳. Kreislaufwirtschaft 🔁 bzw. Universumwirtschaft 🌌 greift in den natürlichen 🌿 Kreislauf ♻️ ein, dass es erst Pflanzen 🌱 dann Tiere 🐾 dann Kompost 🌾 von toten 💀 Lebewesen 🧬 gibt. Es gibt diesen Kreislauf 🔄 auch für Industrien 🏭 und für Chemie ⚗️ für den Geldfluss 💰💱 selbst und all diese Kreisläufe 🔁🌍 gehören zu Kreislaufwirtschaft ♻️🌱. \n\nCircular economy 🔄🌍 is universe ♾️ economic 💱 system 🧩 order ⚖️ and the market 🏪 trade 🤝 exchange 🔁 of (instead of numbers 🔢 values 💎 cycle moments 🔄✨) death 💀 alive ❤️ sick 🤒 healthy 💪 becoming 🌱 or effected ⚡ internally 🧠 or externally 🌐 become either effected ⚙️ or continuously ♻️ taking place ⏳. Circular economy 🔁 or universe economy 🌌 intervenes in the natural 🌿 cycle ♻️ so that there are first plants 🌱 then animals 🐾 then compost 🌾 from dead 💀 living beings 🧬. There is this cycle 🔄 also for industries 🏭 and for chemistry ⚗️ for the flow of money 💰💱 itself and all these cycles 🔁🌍 belong to the circular economy ♻️🌱.\n";
+        std::cout << "\nCircuitKreislaufEconomyWirtschaft\n1letLassenPlanzenGrowWachsen\n2letLassenMeatFleischGrowWachsen\n3DeadTotesBothBeidesMeatFleischPlantPflanze\n4EarthErde\norOder\n1beginAnfangGrothWachstumPlantPflanze\n2RipReißenPlantPflanzeOutHeraus\n3EatEssenDigestVerdauuen\n4CompostKompost\n5EarthErdeNotNichtYetBereitsVulcanVulkan.\n";
         break; 
  
      case 0b010000000000000000:   // {16 }
@@ -210,7 +211,7 @@ case 0b01000000000:   // {9 }
         break; 
      case 0b0100000000000000000:   // {17 }
         std::cout << "{17} vorhanden\n";
-        std::cout << "Algorithmische Zahlen ⚙️🔢 sind Währungen 💱 des 17 Q-Kontinuums ♾️📐, statt ganzer Zahlen 🔢 etwas vergleichbares 🔬 zu Naturkonstanten 🌌🔒.\n\nAlgorithmic numbers ⚙️🔢 are currencies 💱 of the 17 Q continuum ♾️📐, instead of integers 🔢 something comparable 🔬 to natural constants 🌌🔒\n";
+        std::cout << "Algorithmische also berechenbare Zahlen ⚙️🔢 sind Währungen 💱 des 17 Q-Kontinuums ♾️📐, statt ganzer Zahlen 🔢 etwas vergleichbares 🔬 zu Naturkonstanten 🌌🔒.\n\nAlgorithmic numbers so calculatable ⚙️🔢 are currencies 💱 of the 17 Q continuum ♾️📐, instead of integers 🔢 something comparable 🔬 to natural constants 🌌🔒\n";
         break; 
     case 0b010100000000:   // {10, 8 }
         std::cout << "{10 mit 8} vorhanden\n";
