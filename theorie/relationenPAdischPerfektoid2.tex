@@ -1,0 +1,73 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{tikz}
+\usetikzlibrary{positioning, arrows.meta}
+
+\title{Grafische Darstellung: p-adische Zahlen und perfektoide Körper}
+\author{Alexander Kern}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section*{Schematische Darstellung}
+
+\begin{center}
+\begin{tikzpicture}[
+    box/.style={rectangle, draw, rounded corners, text width=6cm, align=center, minimum height=1.5cm},
+    arrow/.style={-{Stealth[scale=1.2]}, thick}
+]
+
+% p-adische Zahlen
+\node[box, fill=blue!10] (Qp) {\textbf{p-adische Zahlen $\mathbb{Q}_p$} \\ 
+Charakteristik 0 \\ 
+Ultrametrisch \\ 
+Vollständig \\ 
+Restklassenkörper $\mathbb{F}_p$ (nicht perfekt)};
+
+% Perfektoide Erweiterungen rechts
+\node[box, fill=green!10, right=6cm of Qp] (K) {\textbf{Perfektoider Körper $K$} \\
+Charakteristik 0 \\ 
+Ultrametrisch \\ 
+Vollständig \\ 
+Restklassenkörper perfekt, char $p$ \\ 
+Frobenius surjektiv mod $p$};
+
+% Tilt darunter von K
+\node[box, fill=yellow!20, below=2cm of K] (Kflat) {\textbf{Tilt $K^\flat$} \\
+Perfekter Körper \\
+Charakteristik $p$};
+
+% Verbindung Qp -> K
+\draw[arrow] (Qp.east) -- node[above]{Perfektoide Erweiterung} (K.west);
+
+% Tilt Pfeil
+\draw[arrow] (K.south) -- node[right]{Tilt-Funktor} (Kflat.north);
+
+% Gemeinsame Eigenschaften
+\node[box, fill=gray!20, below=4cm of $(Qp.east)!0.5!(K.west)$, text width=13cm] (common) {\textbf{Gemeinsame Eigenschaften} \\ 
+- Vollständig \\ 
+- Ultrametrische Topologie};
+
+% Pfeile zu common
+\draw[arrow, dashed] (Qp.south) -- (common.north west);
+\draw[arrow, dashed] (K.south) -- (common.north east);
+
+\end{tikzpicture}
+\end{center}
+
+\section*{Erklärung der Relationen}
+
+\begin{itemize}
+    \item \(\mathbb{Q}_p\) selbst ist nicht perfektoid: Frobenius mod \(p\) nicht surjektiv.
+    \item Perfektoide Erweiterungen $K$ sind vollst. ultrametrische Körper mit perfektem Restklassenkörper mod $p$.
+    \item Tilt $K^\flat$ ist ein perfekter Körper in char. $p$.
+    \item Die gemeinsame Relation: \emph{Vollständigkeit und ultrametrische Topologie} gilt für beide.
+\end{itemize}
+
+\end{document}
+

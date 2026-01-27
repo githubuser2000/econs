@@ -1,0 +1,53 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{array}
+
+\title{p-adische Zahlen und perfektoide Körper}
+\author{Alexander Kern}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section*{Übersicht: p-adische und perfektoide Körper}
+
+\begin{center}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+\hline
+\textbf{p-adische Zahlen $\mathbb{Q}_p$} & \textbf{Perfektoider Körper $K$} \\
+\hline
+Charakteristik 0 & Charakteristik 0 \\
+Ultrametrische Topologie & Ultrametrische Topologie \\
+Vollständig & Vollständig \\
+Restklassenkörper $\mathbb{F}_p$ (nicht perfekt) & Restklassenkörper perfekt, char $p$ \\
+Frobenius (mod $p$) surjektiv? ✗ & Frobenius (mod $p$) surjektiv ✓ \\
+Tilt existiert? ✗ & Tilt $K^\flat$ existiert \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{0.5cm}
+
+\noindent
+\textbf{Tilt $K^\flat$}: Perfekter Körper in Charakteristik $p$, abgeleitet von $K$ via
+\[
+K^\flat = \varprojlim_{x \mapsto x^p} K
+\]
+
+\vspace{0.5cm}
+
+\noindent
+\textbf{Gemeinsame Eigenschaften}:
+
+\begin{itemize}
+    \item Vollständig
+    \item Ultrametrische Topologie
+    \item Charakteristik 0 (für die Körper selbst)
+    \item Existenz eines Restklassenkörpers
+\end{itemize}
+
+\end{document}
+
