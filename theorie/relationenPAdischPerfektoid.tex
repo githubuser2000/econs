@@ -1,0 +1,117 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{booktabs}
+
+\geometry{margin=2.5cm}
+
+\title{Relationen zwischen p-adischen und perfektoiden Zahlen}
+\author{Alexander Kern}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Einleitung}
+
+In dieser Arbeit werden die grundlegenden Relationen zwischen \emph{p-adischen Zahlen} $\mathbb{Q}_p$ und \emph{perfektoiden Körpern} untersucht.  
+Perfektoide Körper treten vor allem in der modernen Zahlentheorie und p-adischen Hodge-Theorie auf und können als perfekte „Überdeckungen“ der p-adischen Zahlen verstanden werden.
+
+\section{Grundlagen}
+
+\subsection{p-adische Zahlen}
+
+Für eine Primzahl $p$ definieren wir $\mathbb{Q}_p$ als den \emph{p-adischen Abschluss von $\mathbb{Q}$}.  
+Wichtige Eigenschaften:
+
+\begin{itemize}
+    \item Diskrete Bewertungsstruktur: $|\cdot|_p : \mathbb{Q}_p \to \mathbb{R}_{\ge 0}$, ultrametrisch.
+    \item Vollständigkeit: $\mathbb{Q}_p$ ist vollständig bzgl. $|\cdot|_p$.
+    \item Lokaler Körper: Restklassenkörper $\mathbb{F}_p$.
+\end{itemize}
+
+\subsection{Perfektoide Körper}
+
+Ein nicht-archimedischer Körper $K$ heißt \emph{perfektoid}, wenn:
+
+\begin{enumerate}
+    \item $K$ vollständig ist,
+    \item der Frobenius $\varphi: K^\circ/p \to K^\circ/p$ surjektiv ist (Restklassenkörper perfekt),
+    \item $K$ charakteristik 0 hat, aber sein \emph{Tilt} $K^\flat$ charakteristik $p$ besitzt.
+\end{enumerate}
+
+\noindent
+Der Tilt $K^\flat$ wird definiert als:
+\[
+K^\flat := \varprojlim_{x \mapsto x^p} K.
+\]
+
+\section{Vergleichstabelle}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{@{}lll@{}}
+\toprule
+Aspekt & $\mathbb{Q}_p$ & Perfektoider Körper $K$ \\ \midrule
+Charakteristik & 0 & 0 (Tilt: char $p$) \\
+Vollständigkeit & Ja & Ja \\
+Bewertung & Ultrametrisch & Ultrametrisch \\
+Restklassenkörper & $\mathbb{F}_p$ & Perfekt, char $p$ \\
+Frobenius & Nicht surjektiv mod $p$ & Surjektiv mod $p$ \\
+Beispiele & $\mathbb{Q}_p$, $\mathbb{Q}_p(\zeta_{p^\infty})$ & $\widehat{\mathbb{Q}_p(p^{1/p^\infty})}$, $C_p$ \\ \bottomrule
+\end{tabular}
+\caption{Vergleich p-adische Zahlen vs. perfektoide Körper}
+\end{table}
+
+\section{Wichtige Relationen}
+
+\subsection{Inklusionsrelation}
+
+\[
+\mathbb{Q}_p \subset K, \quad \text{wenn } K \text{ eine perfektoide Erweiterung von } \mathbb{Q}_p \text{ ist.}
+\]
+
+\subsection{Frobenius-Unterschied}
+
+\begin{align*}
+\mathbb{Q}_p \mod p &: \text{Frobenius nicht surjektiv} \implies \text{nicht perfekt} \\
+K^\circ / p &: \text{Frobenius surjektiv} \implies \text{perfekt}
+\end{align*}
+
+\subsection{Topologische Relation}
+
+Beide sind \emph{vollständig ultrametrische Körper}.  
+Die Topologie von $K$ ist kompatibel mit der p-adischen Topologie von $\mathbb{Q}_p$.
+
+\subsection{Tilt-Beziehung}
+
+\[
+K \text{ perfektoid in char 0} \quad \leftrightarrow \quad K^\flat \text{ perfekter Körper in char $p$}
+\]
+
+\section{Beispiel für eine perfektoide Erweiterung von $\mathbb{Q}_p$}
+
+\[
+\mathbb{Q}_p(p^{1/p^\infty}) := \text{Vervollständigung von } \mathbb{Q}_p(\text{alle p-potenz Wurzeln})
+\]
+
+\noindent
+Diese Erweiterung ist perfektoid, da der Frobenius auf $(\mathbb{Q}_p(p^{1/p^\infty}))^\circ/p$ surjektiv ist.  
+$\mathbb{Q}_p$ selbst ist nicht perfektoid.
+
+\section{Zusammenfassung}
+
+\begin{itemize}
+    \item Perfektoide Körper sind „perfekte Überdeckungen“ der p-adischen Zahlen.
+    \item Der Frobenius-Mod-p-Unterschied ist entscheidend: $\mathbb{Q}_p$ ist nicht perfekt, perfekte Tilts sind es.
+    \item Topologisch sind beide vollständig ultrametrisch.
+    \item Tilts ermöglichen den Übergang zwischen char 0 und char $p$.
+\end{itemize}
+
+\end{document}
+
