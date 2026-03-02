@@ -132,6 +132,7 @@ switch (mask) {
 	std::cout << "\nMultiplying the new rational number between zero and one by a monetary value yields tax levy, or how much an unemployed person receives if the conversion of logic is calculated differently.\n";
 	std::cout << "\nUnemploymentArbeitslosenBenefitGeldShouldSollteInsideInnerhalbFullVollständigerCompleteKompletterPlanetPlanetenEconomyWirtschaftFullyVollständigDependAbhängenOnAufPredicatePrädikatenLogicsLogikWhatWasYouManDoMachtWithMitMoneyGeldHowWieYouManDoTutBusynessWirtschaftet.\n";
 	std::cout << "\nBusinessBetriebsAssetsVermögenRegulatedReguliertLendingLeihenBorrowingBorgenByDurchPredicatePrädikatenLogicsLogik_Planet_AndUndAngleWinkelDirectionRichtungDiplomacyDiplomatieGovernanceRegierungBothBeidesWorldWeltOrderOrdnungHierarchyHierarchieSetsMengenTuplesTupel.\n";
+	std::cout << "\nCompleteKompletter Planet EconomyWirtschafts EnterprisesUnternehmen DataDaten InformationsInformationen MarketMarkt DealsHandelt AboutVon CausalKausal ChainsKetten IntensitiesIntensitäten PotentialsPotenziale AngleWinkelDirectionsRichtungen EffectsEffekten TimeZeit SpaceRaum ClimateKlima EcologyÖkologie DataDaten ForFür GovernmentsRegierungen AndUnd GeneralAllgemeine ComparisionsVergleiche BalancesheetBilanzen Planet InventuryInventur PhenomenasPhänomene.\n";
         break;
 case 0b01000000000:   // {9 }
         std::cout << "{9 } vorhanden\n";
