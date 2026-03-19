@@ -67,7 +67,7 @@ if (USE_NCURSES)
 endif()
 
 # --- Zielpfad für Deployment ---
-set(DEPLOY_DIR $ENV{HOME}/myRepos/econs/econs/bin)
+set(DEPLOY_DIR ../bin)
 
 # --- Beim Build zusätzlich dorthin kopieren ---
 add_custom_command(TARGET menu POST_BUILD
